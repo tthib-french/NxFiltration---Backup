@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>You_cannot_change_status</fullName>
+    <active>true</active>
+    <description>Other then Backoffice you cannot change status</description>
+    <errorConditionFormula>AND( 
+
+ISCHANGED(Status),
+
+$Permission.Permission_to_change_Order_Status = false
+
+   )</errorConditionFormula>
+    <errorMessage>You cannot change status, only backoffice.</errorMessage>
+</ValidationRule>

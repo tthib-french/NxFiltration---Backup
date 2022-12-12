@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commissioning_date</fullName>
+    <active>true</active>
+    <errorConditionFormula>Preliminary_Commissioning_Date__c &lt; CloseDate &amp;&amp;
+
+Preliminary_Commissioning_Date__c &lt; Requested_Delivery_Date__c
+
+&amp;&amp;  RecordTypeId = &quot;01209000001iDNUAA2&quot;</errorConditionFormula>
+    <errorMessage>Preliminary Commissioning Date can only be equal or greater date then Expected Order Date and Requested Delivery Date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>You_can_only_choose_Invoice_Address</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+NOT(ISPICKVAL(EOLinvoiceaddress__r.Type__c, &quot;3&quot;))
+
+&amp;&amp;
+
+NOT(ISBLANK(EOLinvoiceaddress__c))
+
+)</errorConditionFormula>
+    <errorDisplayField>EOLinvoiceaddress__c</errorDisplayField>
+    <errorMessage>You can only choose type Invoice Address</errorMessage>
+</ValidationRule>

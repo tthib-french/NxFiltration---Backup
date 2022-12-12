@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_User_Can_approve__c</fullName>
+    <externalId>false</externalId>
+    <formula>$User.Next_Discount_to_Approve__c &gt;= Max_Discount_Percentge_c__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current User Can approve</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

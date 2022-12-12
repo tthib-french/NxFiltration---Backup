@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incoterms_need_to_be_verified_beforeSync</fullName>
+    <active>true</active>
+    <description>The Incoterms needs to be verified before the synchronisation of the quote to opportunity happens.</description>
+    <errorConditionFormula>AND(
+Incoterms_Approved__c = false,
+IsSyncing = true,
+ISPICKVAL(Transportation_Status__c,&quot;Included&quot;)
+)</errorConditionFormula>
+    <errorMessage>The Incoterm need to be verified by the CFO and verified before the synchronisation of the quote to opportunity. Please consider using Chatter for fast approval.</errorMessage>
+</ValidationRule>

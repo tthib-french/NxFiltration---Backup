@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>You_cannot_edit_stage_when_closed_won</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+ISPICKVAL(PRIORVALUE(StageName),&quot;Closed Won&quot;) ,
+ISCHANGED(StageName)
+
+)
+
+&amp;&amp; 
+
+$Permission.Permission_to_edit_closed_opportunities = false</errorConditionFormula>
+    <errorMessage>You cannot edit the stages of the Opportunity when it is Closed Won.</errorMessage>
+</ValidationRule>

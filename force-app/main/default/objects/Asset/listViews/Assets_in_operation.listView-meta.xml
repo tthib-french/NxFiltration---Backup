@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assets_in_operation</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>Type__c</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>Container_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Assets in operation</label>
+</ListView>

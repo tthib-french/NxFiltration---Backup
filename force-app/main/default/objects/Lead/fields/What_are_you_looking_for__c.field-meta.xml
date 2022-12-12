@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_are_you_looking_for__c</fullName>
+    <externalId>false</externalId>
+    <label>What are you looking for?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Technical Advice</fullName>
+                <default>false</default>
+                <label>Technical Advice</label>
+            </value>
+            <value>
+                <fullName>Product Information</fullName>
+                <default>false</default>
+                <label>Product Information</label>
+            </value>
+            <value>
+                <fullName>(Online) Meeting request</fullName>
+                <default>false</default>
+                <label>(Online) Meeting request</label>
+            </value>
+            <value>
+                <fullName>Request for Quotation</fullName>
+                <default>false</default>
+                <label>Request for Quotation</label>
+            </value>
+            <value>
+                <fullName>Marketing Material</fullName>
+                <default>false</default>
+                <label>Marketing Material</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Advice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advice</label>
+            </value>
+            <value>
+                <fullName>Info price</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Info Price</label>
+            </value>
+            <value>
+                <fullName>Product info</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product info</label>
+            </value>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quote</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

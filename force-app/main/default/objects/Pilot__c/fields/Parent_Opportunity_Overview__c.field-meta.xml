@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Opportunity_Overview__c</fullName>
+    <externalId>false</externalId>
+    <formula>/* uncomment next and last 2 lines to handle negatives and denote them in accounting style -1234 == (1,234.00) */
+/* SUBSTITUTE(
+IF(Order__r.Opportunity.Amount &lt; 0,&quot;Amount | &quot; &amp; &quot;€&quot; &amp; &quot;(&quot;, &quot;&quot;) &amp; */
+/* uncomment and adjust currency sign */
+/* &quot;$&quot; &amp; */
+IF(ABS(Order__r.Opportunity.Amount) &gt;= 1000000,&quot;Amount | &quot; &amp; &quot;€&quot; &amp;  TEXT(FLOOR(Order__r.Opportunity.Amount / 1000000)) &amp; &quot;,&quot;, &quot;&quot;)
+&amp; IF(ABS(Order__r.Opportunity.Amount) &gt;= 1000, &quot;Amount | &quot; &amp; &quot;€&quot; &amp; RIGHT(TEXT(FLOOR(Order__r.Opportunity.Amount / 1000)), 3) &amp; &quot;,&quot;, &quot;&quot;)
+&amp; RIGHT(TEXT(FLOOR(Order__r.Opportunity.Amount)), 3)
+/* multiplier x100 and 2 indicate number of decimal places */
+&amp; &quot;.&quot; &amp; RIGHT(TEXT(ROUND(Order__r.Opportunity.Amount * 100, 0)), 2)
+/* &amp; IF(Order__r.Opportunity.Amount &lt; 0,&quot;Amount | &quot; &amp; &quot;€&quot; &amp; &quot;)&quot;, &quot;&quot;)
+,&quot;-&quot;,&quot;&quot;) */
+
+&amp;  BR() &amp;
+
+
+&quot;Probability | &quot; &amp; TEXT(Order__r.Opportunity.Probability *100 )&amp;&quot;%&quot;  &amp; BR()&amp;
+&quot;Stage | &quot; &amp;  TEXT(Order__r.Opportunity.StageName) &amp; BR()&amp;
+&quot;Expected Order Date | &quot; &amp; TEXT(Order__r.Opportunity.CloseDate)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Parent Opportunity - Overview</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

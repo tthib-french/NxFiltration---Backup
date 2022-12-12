@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>oc_eol__Exact_Online_Entity__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Exact Online API Name</inlineHelpText>
+    <label>Exact Online Entity</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account</fullName>
+                <default>true</default>
+                <label>Account</label>
+            </value>
+            <value>
+                <fullName>Address</fullName>
+                <default>false</default>
+                <label>Address</label>
+            </value>
+            <value>
+                <fullName>Contact</fullName>
+                <default>false</default>
+                <label>Contact</label>
+            </value>
+            <value>
+                <fullName>SalesItemPrice</fullName>
+                <default>false</default>
+                <label>SalesItemPrice</label>
+            </value>
+            <value>
+                <fullName>SalesOrder</fullName>
+                <default>false</default>
+                <label>SalesOrder</label>
+            </value>
+            <value>
+                <fullName>SalesOrderLine</fullName>
+                <default>false</default>
+                <label>SalesOrderLine</label>
+            </value>
+            <value>
+                <fullName>Item</fullName>
+                <default>false</default>
+                <label>Item</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

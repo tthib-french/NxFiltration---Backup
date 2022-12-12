@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_s_Subtotal__c</fullName>
+    <description>For admin. Do not delete or put it on the page layout. This field is used in the Opportunity Field History Tracking process.</description>
+    <externalId>false</externalId>
+    <label>Product(s) Subtotal</label>
+    <summarizedField>OpportunityLineItem.Subtotal__c</summarizedField>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Quota_Date__c</columns>
+    <columns>Amount__c</columns>
+    <columns>Amount_YTD__c</columns>
+    <columns>Quota_Date_Month__c</columns>
+    <columns>Quota_Account__c</columns>
+    <columns>Quota_PMC__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Quota_Date_Month__c</field>
+        <operation>lessOrEqual</operation>
+        <value>2</value>
+    </filters>
+    <label>All</label>
+</ListView>

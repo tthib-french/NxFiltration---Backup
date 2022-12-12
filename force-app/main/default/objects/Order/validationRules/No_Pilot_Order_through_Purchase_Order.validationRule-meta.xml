@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Pilot_Order_through_Purchase_Order</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Type,&quot;Pilot&quot;),
+ISPICKVAL(Confirmation_Type__c, &quot;Purchase Order&quot;)
+)</errorConditionFormula>
+    <errorMessage>You cannot create Order Pilot from Purchase Order. You need to make a Pilot Opportunity first.</errorMessage>
+</ValidationRule>

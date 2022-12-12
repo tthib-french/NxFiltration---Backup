@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EOLinvoiceaddress__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>EOL Invoice Address</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Address type has to be &quot;Invoice&quot; and from the Orders Account</errorMessage>
+        <filterItems>
+            <field>Address__c.Type__c</field>
+            <operation>equals</operation>
+            <value>Invoice</value>
+        </filterItems>
+        <filterItems>
+            <field>Address__c.Account__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.AccountId</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Address__c</referenceTo>
+    <relationshipLabel>Orders (EOL Invoice Address)</relationshipLabel>
+    <relationshipName>OrdersInvoiceAdresses</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

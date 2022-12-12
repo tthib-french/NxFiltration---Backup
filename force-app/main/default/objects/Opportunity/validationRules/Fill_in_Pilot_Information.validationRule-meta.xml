@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fill_in_Pilot_Information</fullName>
+    <active>false</active>
+    <description>When you have chosen Pilot Planning Neccesarry yes, then you need to fill in: Pilot Type, Preliminary Commissioning Date, Decommissioning, Commissioning and Expected end date.</description>
+    <errorConditionFormula>AND(
+
+ISPICKVAL(Pilot_Planning_Neccesarry__c, &quot;Yes&quot;),
+
+OR(
+
+ ISBLANK(TEXT(Pilot_type__c)),
+ ISBLANK(Preliminary_Commissioning_Date__c),
+ ISBLANK(TEXT(Decommissioning_required__c)),
+ ISBLANK(TEXT(Commissioning_Required__c)),
+ ISBLANK(Expected_end_date__c)
+
+)
+ )
+
+&amp;&amp;
+
+ $Permission.Permission_to_bypass_validation_rule_Fill_in_Pilot_Information = false</errorConditionFormula>
+    <errorMessage>When you have chosen Pilot Planning Neccesarry: &quot;Yes&quot;, then you need to fill in: Pilot Type, Preliminary Commissioning Date, Decommissioning, Commissioning and Expected end date.</errorMessage>
+</ValidationRule>

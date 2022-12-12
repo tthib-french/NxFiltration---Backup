@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_add_more_then_1_quantity_shipping</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Product2.Family, &quot;105 - Shipping&quot;),
+Quantity &gt; 1
+)</errorConditionFormula>
+    <errorMessage>You cannot add more then 1 quantity for shipping line</errorMessage>
+</ValidationRule>

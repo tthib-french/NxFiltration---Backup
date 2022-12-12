@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fill_in_info</fullName>
+    <active>false</active>
+    <description>When Order is Pilot Order fill in the Opportunity Lookup Field</description>
+    <errorConditionFormula>AND(OR(
+ISPICKVAL(Type, &quot;Purchase Order&quot;),
+ISPICKVAL(Status, &quot;Draft&quot;),
+NOT(ISBLANK(Opportunity__c)),
+NOT(ISBLANK(Quote__c)),
+NOT(ISBLANK(Opportunity.Linked_Pilot__c))))</errorConditionFormula>
+    <errorMessage>Fill in Opportunity Pilot on the Opportunity, Opportunity, Quote</errorMessage>
+</ValidationRule>

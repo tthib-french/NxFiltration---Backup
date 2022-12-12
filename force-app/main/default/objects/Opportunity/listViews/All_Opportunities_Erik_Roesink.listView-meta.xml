@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Opportunities_Erik_Roesink</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Application__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>Grand_Total_NXF__c</columns>
+    <columns>Expected_Revenue__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Linked_Pilot__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Project_Destination__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>Opportunity_number_Helper_2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Won,Closed Lost,Canceled</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>(ERo)</value>
+    </filters>
+    <label>All Opportunities Erik Roesink</label>
+    <sharedTo>
+        <group>Strategic_accounts</group>
+        <role>Sales_Director_America</role>
+    </sharedTo>
+</ListView>

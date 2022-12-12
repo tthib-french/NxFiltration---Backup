@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>You_cannot_activate_Order_before_approve</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK( Opportunity__c )),
+
+NOT(ISPICKVAL( Opportunity__r.Account.Approval_Status__c, &quot;Account approved&quot;))
+)</errorConditionFormula>
+    <errorMessage>You cannot activate an Order before Account is approved by Finance</errorMessage>
+</ValidationRule>

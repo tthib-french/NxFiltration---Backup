@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transport_Cost_needs_to_be_verified</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+IsSyncing = true,
+
+Transportation_Cost_Checked__c = false,
+
+ISPICKVAL(Transportation_Status__c, &quot;Included&quot;)
+
+)</errorConditionFormula>
+    <errorMessage>Transport cost needs to be verified.</errorMessage>
+</ValidationRule>

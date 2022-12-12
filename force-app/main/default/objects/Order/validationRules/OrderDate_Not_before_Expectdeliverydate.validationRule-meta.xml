@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrderDate_Not_before_Expectdeliverydate</fullName>
+    <active>true</active>
+    <errorConditionFormula>Expected_Delivery_Date__c &lt;  EffectiveDate</errorConditionFormula>
+    <errorMessage>Expected Delivery Date cannot be before Start Order Date</errorMessage>
+</ValidationRule>

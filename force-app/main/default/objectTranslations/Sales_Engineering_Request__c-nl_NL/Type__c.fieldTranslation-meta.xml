@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Application feasibility, incl. pretreatment requirements recommendations (2 days)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Estimation footprint (3 days)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optimized UF/dNF design – Flux, arrangement, chemical &amp; power consumption (3 days)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical webinar/discussion (upon availability)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

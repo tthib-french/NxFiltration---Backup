@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Need_Value_Pilot_Approval_Neccessary</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+RecordTypeId = &quot;01209000001iDNU&quot;,
+NOT(ISPICKVAL(Pilot_Planning_Neccesarry__c, &quot;Yes&quot;)),
+Probability &gt;= 0.5
+
+&amp;&amp;
+
+OR(
+NOT(ISPICKVAL(StageName, &quot;Closed Won&quot;)),
+NOT(ISPICKVAL(StageName, &quot;Closed Lost&quot;)),
+NOT(ISPICKVAL(StageName, &quot;Canceled&quot;))
+)
+
+)</errorConditionFormula>
+    <errorMessage>You need to select &quot;Yes&quot; for &quot;Planning Approval Necessary&quot; when the Pilot Opportunity is above or equal than 50% probability.</errorMessage>
+</ValidationRule>

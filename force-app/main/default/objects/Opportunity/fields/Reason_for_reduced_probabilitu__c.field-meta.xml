@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_reduced_probabilitu__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please describe in here why probability should be reduced. e.g. 1) Uncertainty on order date (i.e. waiting for client budget approval or order date has been moved more than 3 times) ; 2) Our quote is only used for comparison against a (preferred) competitor; 3) Other: please specify
+
+Please note that by selecting reduced probability, the probability will be reduced by 25% to a minimum of 5%.</inlineHelpText>
+    <label>Reason for reduced probability</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

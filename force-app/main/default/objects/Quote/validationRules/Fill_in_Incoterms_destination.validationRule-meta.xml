@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fill_in_Incoterms_destination</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+ ISPICKVAL(Transportation_Status__c, &quot;Included&quot;),
+ ISBLANK(Incoterms_Destination__c)
+
+)</errorConditionFormula>
+    <errorDisplayField>Incoterms_Destination__c</errorDisplayField>
+    <errorMessage>You need to fill in Incoterms Destination when Transport Cost is included.</errorMessage>
+</ValidationRule>

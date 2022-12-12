@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Module__c</fullName>
+    <externalId>false</externalId>
+    <label>Module</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Pilot_type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Module</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Mexplorer</controllingFieldValue>
+            <controllingFieldValue>Custom design</controllingFieldValue>
+            <valueName>MP025</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexperience</controllingFieldValue>
+            <controllingFieldValue>Custom design</controllingFieldValue>
+            <valueName>WMC110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexpert</controllingFieldValue>
+            <controllingFieldValue>Custom design</controllingFieldValue>
+            <controllingFieldValue>Demo Unit</controllingFieldValue>
+            <controllingFieldValue>Mexpert Container</controllingFieldValue>
+            <valueName>WMC200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexpert</controllingFieldValue>
+            <controllingFieldValue>Custom design</controllingFieldValue>
+            <controllingFieldValue>Demo Unit</controllingFieldValue>
+            <controllingFieldValue>Mexpert Container</controllingFieldValue>
+            <valueName>WRC200</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

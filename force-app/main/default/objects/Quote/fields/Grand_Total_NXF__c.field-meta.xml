@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grand_Total_NXF__c</fullName>
+    <externalId>false</externalId>
+    <label>Grand Total</label>
+    <summarizedField>QuoteLineItem.Subtotal_Salesprice_Discount_for_Roll_Up__c</summarizedField>
+    <summaryFilterItems>
+        <field>QuoteLineItem.Quantity</field>
+        <operation>greaterOrEqual</operation>
+        <value>0</value>
+    </summaryFilterItems>
+    <summaryForeignKey>QuoteLineItem.QuoteId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <type>Summary</type>
+</CustomField>

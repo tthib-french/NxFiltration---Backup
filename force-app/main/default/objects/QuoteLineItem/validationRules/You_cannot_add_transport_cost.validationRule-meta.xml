@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>You_cannot_add_transport_cost</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+ISCHANGED(Transport_Cost__c),
+
+NOT(ISPICKVAL(PricebookEntry.Product2.Family, &quot;105 - Shipping&quot;))
+
+)</errorConditionFormula>
+    <errorMessage>You can only add transport cost on the Product Family &quot;Shipping&quot;</errorMessage>
+</ValidationRule>

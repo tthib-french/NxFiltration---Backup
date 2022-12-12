@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_need_to_be_docusigned</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(StageName, &quot;Closed Won&quot;),
+NOT(ISPICKVAL(SyncedQuote.DocuSigned__c, &quot;Yes&quot;)
+))</errorConditionFormula>
+    <errorMessage>Synced Quote need to be Docusigned before Closed Won.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fill_in_information_on_Order_2</fullName>
+    <active>true</active>
+    <description>This rule is created for Incoterm FCA. This Incoterm does not need Delivery Address. That is why a seperate rule with error information has been created to avoid confusion.</description>
+    <errorConditionFormula>AND(
+
+ISPICKVAL(Status,&quot;Activated&quot;),
+
+ISPICKVAL(Incoterms__c, &quot;FCA&quot;)
+
+&amp;&amp;
+
+OR(
+
+ISBLANK(AccountId),
+ISBLANK(CustomerAuthorizedById),
+ISBLANK(EOLinvoiceaddress__c)
+
+)
+)</errorConditionFormula>
+    <errorMessage>Fill in &quot;Account&quot;, &quot;Customer Authorized By&quot; &amp; &quot;Invoice Address&quot;</errorMessage>
+</ValidationRule>

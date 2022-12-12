@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Parent_opportunity__c</fullName>
+    <description>Latest update on Parent opportunity</description>
+    <externalId>false</externalId>
+    <formula>Parent_Opportunity__r.Status_Description__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Latest update on Parent opportunity</inlineHelpText>
+    <label>Update_Parent opportunity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

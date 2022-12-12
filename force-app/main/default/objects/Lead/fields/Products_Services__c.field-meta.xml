@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_Services__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the product of interest here</inlineHelpText>
+    <label>Products&amp;Services</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>dNF 120</fullName>
+                <default>false</default>
+                <label>dNF 120</label>
+            </value>
+            <value>
+                <fullName>dNF 80</fullName>
+                <default>false</default>
+                <label>dNF 80</label>
+            </value>
+            <value>
+                <fullName>dNF 40</fullName>
+                <default>false</default>
+                <label>dNF 40</label>
+            </value>
+            <value>
+                <fullName>UF 150</fullName>
+                <default>false</default>
+                <label>UF 150</label>
+            </value>
+            <value>
+                <fullName>UF010</fullName>
+                <default>false</default>
+                <label>UF 010</label>
+            </value>
+            <value>
+                <fullName>MF 500</fullName>
+                <default>false</default>
+                <label>MF 500</label>
+            </value>
+            <value>
+                <fullName>MF 100</fullName>
+                <default>false</default>
+                <label>MF 100</label>
+            </value>
+            <value>
+                <fullName>Piloting/Lab services</fullName>
+                <default>false</default>
+                <label>Piloting/Lab services</label>
+            </value>
+            <value>
+                <fullName>Membranes autopsy</fullName>
+                <default>false</default>
+                <label>Membranes autopsy</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other (see comments)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Country_Mandatory</fullName>
+    <active>true</active>
+    <description>The billing country from the account record is mapped with &quot;Ordered by&quot; data on the Sales Order in Exact Online.</description>
+    <errorConditionFormula>NOT(ISNEW())&amp;&amp;
+ISBLANK(TEXT(BillingCountryCode))</errorConditionFormula>
+    <errorDisplayField>BillingCountry</errorDisplayField>
+    <errorMessage>Fill in &quot;Billing Country&quot; in the address information section.</errorMessage>
+</ValidationRule>

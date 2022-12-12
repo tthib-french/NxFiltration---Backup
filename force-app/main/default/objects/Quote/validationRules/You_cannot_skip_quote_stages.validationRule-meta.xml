@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>You_cannot_skip_quote_stages</fullName>
+    <active>true</active>
+    <errorConditionFormula>ABS(CASE( Status , 
+&quot;Pre Quote&quot;,1, 
+&quot;Quote Preparation&quot;,2, 
+&quot;Quote Ready&quot;,3, 
+&quot;Quote Submission&quot;,4, 
+&quot;(Contract) Negotitiation&quot;,5, 
+&quot;Accepted&quot;,6,0)
+- 
+CASE(PRIORVALUE(Status), 
+&quot;Pre Quote&quot;,1, 
+&quot;Quote Preparation&quot;,2, 
+&quot;Quote Ready&quot;,3, 
+&quot;Quote Submission&quot;,4, 
+&quot;(Contract) Negotitiation&quot;,5, 
+&quot;Accepted&quot;,6,0)
+)&gt;1</errorConditionFormula>
+    <errorMessage>You cannot skip Quote Stages. Make sure you choose the right stage.</errorMessage>
+</ValidationRule>

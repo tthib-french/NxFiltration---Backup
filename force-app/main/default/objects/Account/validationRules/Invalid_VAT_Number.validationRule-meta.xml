@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invalid_VAT_Number</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( NOT( REGEX( VAT_number__c , &quot;NL[0-9]{9}B[0-9]{2}&quot;)),
+NOT(ISBLANK(VAT_number__c)))</errorConditionFormula>
+    <errorDisplayField>VAT_number__c</errorDisplayField>
+    <errorMessage>Please provide the VAT Number in the following format: NL000000000B00</errorMessage>
+</ValidationRule>

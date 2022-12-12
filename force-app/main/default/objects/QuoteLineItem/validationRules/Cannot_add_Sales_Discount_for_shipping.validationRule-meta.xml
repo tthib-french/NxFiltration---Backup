@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_add_Sales_Discount_for_shipping</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Product2.Family, &quot;105 - Shipping&quot;),
+Sales_Discount__c &gt; 0
+)</errorConditionFormula>
+    <errorMessage>You cannot add Sales Discount for shipping cost / transport cost</errorMessage>
+</ValidationRule>

@@ -78,4 +78,12 @@
             <section>Totals</section>
         </sections>
     </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Cannot_exceed_100perc_salesdiscount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>You_cannot_add_shipping_cost_line</name>
+    </validationRules>
 </CustomObjectTranslation>

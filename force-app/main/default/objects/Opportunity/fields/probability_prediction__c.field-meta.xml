@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>probability_prediction__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This probability percentage is calculated based on the set of rules defined by NX Filtration management. Please refer to the documentation for explanation of the rationale.</inlineHelpText>
+    <label>Probability Prediction</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <securityClassification>Public</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

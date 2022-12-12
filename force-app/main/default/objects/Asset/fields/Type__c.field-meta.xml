@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mexpert</fullName>
+                <default>false</default>
+                <label>Mexpert</label>
+            </value>
+            <value>
+                <fullName>MexpertC</fullName>
+                <default>false</default>
+                <label>MexpertC</label>
+            </value>
+            <value>
+                <fullName>Mexpert NA1</fullName>
+                <default>false</default>
+                <label>Mexpert NA1</label>
+            </value>
+            <value>
+                <fullName>MexpertC NA2</fullName>
+                <default>false</default>
+                <label>MexpertC NA2</label>
+            </value>
+            <value>
+                <fullName>MexpertC NA3</fullName>
+                <default>false</default>
+                <label>MexpertC NA3</label>
+            </value>
+            <value>
+                <fullName>MexpertC NA4</fullName>
+                <default>false</default>
+                <label>MexpertC NA4</label>
+            </value>
+            <value>
+                <fullName>Mexperience</fullName>
+                <default>false</default>
+                <label>Mexperience</label>
+            </value>
+            <value>
+                <fullName>Mexplorer</fullName>
+                <default>false</default>
+                <label>Mexplorer</label>
+            </value>
+            <value>
+                <fullName>Mexplorer Asia</fullName>
+                <default>false</default>
+                <label>Mexplorer Asia</label>
+            </value>
+            <value>
+                <fullName>Mexplorer Spain</fullName>
+                <default>false</default>
+                <label>Mexplorer Spain</label>
+            </value>
+            <value>
+                <fullName>Mexplorer India</fullName>
+                <default>false</default>
+                <label>Mexplorer India</label>
+            </value>
+            <value>
+                <fullName>MexplorerNA</fullName>
+                <default>false</default>
+                <label>MexplorerNA</label>
+            </value>
+            <value>
+                <fullName>Bexpert</fullName>
+                <default>false</default>
+                <label>Bexpert</label>
+            </value>
+            <value>
+                <fullName>MexpertCP</fullName>
+                <default>false</default>
+                <label>MexpertCP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

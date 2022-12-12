@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Account_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Industry</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Automotive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Beverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Biodiesel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Ceramics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Chemical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Cosmetic/Bodycare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Dairy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Digestate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Distillery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Electronics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>General wastewater plant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Hazardous waste management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Hospital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Land development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Landfill Leachate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Laundry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Metal industry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Municipal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Non Industrial Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Oil &amp; Gas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Petrochemical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Pharmaceutical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Plastic recycling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Pulp &amp; Paper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Slaughterhouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Tank cleaning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Tannery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Textile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End users</controllingFieldValue>
+            <controllingFieldValue>Plant operator</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

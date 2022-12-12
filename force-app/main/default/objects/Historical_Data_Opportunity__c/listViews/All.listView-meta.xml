@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Snapshot_Created_Date__c</columns>
+    <columns>NAME</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Field_Filter_Day__c</columns>
+    <columns>Field_Filter_Name_of_Day__c</columns>
+    <columns>Filter_Field_Month__c</columns>
+    <columns>Filter_Field_Year__c</columns>
+    <columns>Account_Region_Area__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

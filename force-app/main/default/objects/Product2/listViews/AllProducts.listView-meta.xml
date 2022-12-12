@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllProducts</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>End_Date__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Product_Family_Shadow_Field__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Active__c</columns>
+    <columns>EOL_ID_PRODUCTS__c</columns>
+    <columns>IsSalesItem__c</columns>
+    <columns>In_Salesforce_before_Product_Sync__c</columns>
+    <columns>Stock_Count_ID__c</columns>
+    <columns>PRODUCT2.LAST_UPDATE</columns>
+    <columns>Timestamp__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All Products</label>
+</ListView>

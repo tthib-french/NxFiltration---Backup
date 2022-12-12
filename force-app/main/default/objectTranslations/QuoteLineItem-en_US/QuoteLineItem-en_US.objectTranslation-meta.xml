@@ -27,4 +27,24 @@
             <section>Total</section>
         </sections>
     </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Cannot_add_Sales_Discount_for_shipping</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Cannot_add_more_then_1_quantity_shipping</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Cannot_exceed_100perc_salesdiscount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>You_cannot_add_shipping_cost_line</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>You_cannot_add_transport_cost</name>
+    </validationRules>
 </CustomObjectTranslation>

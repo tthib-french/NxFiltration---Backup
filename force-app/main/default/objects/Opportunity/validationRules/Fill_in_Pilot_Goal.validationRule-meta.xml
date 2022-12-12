@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fill_in_Pilot_Goal</fullName>
+    <active>true</active>
+    <description>When checkbox Is Pilot is checked, then fill in Pilot Goal.</description>
+    <errorConditionFormula>AND(
+Is_Pilot__c = true,
+ISPICKVAL(Pilot_Goal__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>Fill in the Pilot Goal.</errorMessage>
+</ValidationRule>

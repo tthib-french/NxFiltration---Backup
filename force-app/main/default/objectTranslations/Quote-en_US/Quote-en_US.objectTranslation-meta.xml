@@ -27,6 +27,38 @@
         <label></label>
         <name>SendEmail</name>
     </quickActions>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Add_Shipping_Line</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Fill_in_Incoterms_destination</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Incoterms_need_to_be_verified_beforeSync</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Transport_Cost_needs_to_be_verified</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>You_cannot_make_quote_before_approve</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>You_cannot_skip_quote_stages</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>You_cannot_verify_transport_cost</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>SendWithDocuSign</name>
+    </webLinks>
     <workflowTasks>
         <name>Approval_request_0</name>
         <subject></subject>

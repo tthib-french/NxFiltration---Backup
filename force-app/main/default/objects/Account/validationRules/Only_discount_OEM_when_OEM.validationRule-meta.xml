@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_discount_OEM_when_OEM</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISPICKVAL(Account_Type__c,&quot;OEM/EPC&quot;)),
+NOT(ISBLANK( Discount_OEM__c))
+)</errorConditionFormula>
+    <errorMessage>You cannot fill in OEM Discount when it is not an Account Type &apos;OEM/EPC&apos;</errorMessage>
+</ValidationRule>

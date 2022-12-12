@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Account_EOL_Customer_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+ISPICKVAL(Status,&quot;Activated&quot;),
+
+NOT(ISPICKVAL(Account.Customer_status_EOL__c, &quot;c&quot;))
+
+)</errorConditionFormula>
+    <errorMessage>You need to update Account Customer Status to Customer</errorMessage>
+</ValidationRule>

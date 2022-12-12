@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Commercial stage</fullName>
+                <default>false</default>
+                <label>Commercial stage</label>
+            </value>
+            <value>
+                <fullName>Transport</fullName>
+                <default>false</default>
+                <label>Transport</label>
+            </value>
+            <value>
+                <fullName>Commissioning</fullName>
+                <default>false</default>
+                <label>Commissioning</label>
+            </value>
+            <value>
+                <fullName>In operation</fullName>
+                <default>false</default>
+                <label>In operation</label>
+            </value>
+            <value>
+                <fullName>Decommissioning</fullName>
+                <default>false</default>
+                <label>Decommissioning</label>
+            </value>
+            <value>
+                <fullName>(Return) transport</fullName>
+                <default>false</default>
+                <label>(Return) transport</label>
+            </value>
+            <value>
+                <fullName>Evaluation</fullName>
+                <default>false</default>
+                <label>Evaluation</label>
+            </value>
+            <value>
+                <fullName>Closed out</fullName>
+                <default>false</default>
+                <label>Closed out</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delivery time</fullName>
+                <default>false</default>
+                <label>Delivery time</label>
+            </value>
+            <value>
+                <fullName>Local Presence</fullName>
+                <default>false</default>
+                <label>Local Presence</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Product specification based on NX Filtration model type</fullName>
+                <default>false</default>
+                <label>Product specification based on NX Filtration model type</label>
+            </value>
+            <value>
+                <fullName>Quick response time</fullName>
+                <default>false</default>
+                <label>Quick response time</label>
+            </value>
+            <value>
+                <fullName>Relationship</fullName>
+                <default>false</default>
+                <label>Relationship</label>
+            </value>
+            <value>
+                <fullName>Technical Expertise</fullName>
+                <default>false</default>
+                <label>Technical Expertise</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <default>false</default>
+                <label>Technology</label>
+            </value>
+            <value>
+                <fullName>Terms and Conditions</fullName>
+                <default>false</default>
+                <label>Terms and Conditions</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Bid specification based toward other treatment method (not membrane filtration tech)</fullName>
+                <default>false</default>
+                <label>Bid specification based toward other treatment method (not membrane filtration tech)</label>
+            </value>
+            <value>
+                <fullName>Cannot meet/match product specification (e.g. material, membrane area, etc)</fullName>
+                <default>false</default>
+                <label>Cannot meet/match product specification (e.g. material, membrane area, etc)</label>
+            </value>
+            <value>
+                <fullName>End user/EPC/consultant preference over membrane suppliers</fullName>
+                <default>false</default>
+                <label>End user/EPC/consultant preference over membrane suppliers</label>
+            </value>
+            <value>
+                <fullName>End user/EPC direct purchase from membrane supplier and by-pass OEMs</fullName>
+                <default>false</default>
+                <label>End user/EPC direct purchase from membrane supplier and by-pass OEMs</label>
+            </value>
+            <value>
+                <fullName>Lack of references</fullName>
+                <default>false</default>
+                <label>Lack of references</label>
+            </value>
+            <value>
+                <fullName>No access to customer</fullName>
+                <default>false</default>
+                <label>No access to customer</label>
+            </value>
+            <value>
+                <fullName>Opportunity identified too late</fullName>
+                <default>false</default>
+                <label>Opportunity identified too late</label>
+            </value>
+            <value>
+                <fullName>Quotation sent too late</fullName>
+                <default>false</default>
+                <label>Quotation sent too late</label>
+            </value>
+            <value>
+                <fullName>Cannot get approval from local government</fullName>
+                <default>false</default>
+                <label>Cannot get approval from local government</label>
+            </value>
+            <value>
+                <fullName>End user company restructured or close down</fullName>
+                <default>false</default>
+                <label>End user company restructured or close down</label>
+            </value>
+            <value>
+                <fullName>End user relocate plant to other site/country</fullName>
+                <default>false</default>
+                <label>End user relocate plant to other site/country</label>
+            </value>
+            <value>
+                <fullName>Financing issues</fullName>
+                <default>false</default>
+                <label>Financing issues</label>
+            </value>
+            <value>
+                <fullName>Multiple bidders for same project</fullName>
+                <default>false</default>
+                <label>Multiple bidders for same project</label>
+            </value>
+            <value>
+                <fullName>Project cancelled</fullName>
+                <default>false</default>
+                <label>Project cancelled</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Delivery time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Technical Expertise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Terms and Conditions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Bid specification based toward other treatment method (not membrane filtration tech)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Cannot meet/match product specification (e.g. material, membrane area, etc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>End user/EPC/consultant preference over membrane suppliers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>End user/EPC direct purchase from membrane supplier and by-pass OEMs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lack of references</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>No access to customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Opportunity identified too late</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Quotation sent too late</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Cannot get approval from local government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>End user company restructured or close down</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>End user relocate plant to other site/country</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Financing issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Multiple bidders for same project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Project cancelled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Local Presence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Product specification based on NX Filtration model type</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Quick response time</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

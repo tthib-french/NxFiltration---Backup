@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Approval Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account not approved</fullName>
+                <default>true</default>
+                <label>Account not approved</label>
+            </value>
+            <value>
+                <fullName>Account in review</fullName>
+                <default>false</default>
+                <label>Account in review</label>
+            </value>
+            <value>
+                <fullName>Account approved</fullName>
+                <default>false</default>
+                <label>Account approved</label>
+            </value>
+            <value>
+                <fullName>Account rejected</fullName>
+                <default>false</default>
+                <label>Account rejected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

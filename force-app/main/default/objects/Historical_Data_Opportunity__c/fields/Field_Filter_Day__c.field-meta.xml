@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Filter_Day__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+  MOD( Snapshot_Created_Date__c  - DATE( 1900, 1, 8 ), 7 ),
+  0, &quot;1&quot;,
+  1, &quot;2&quot;,
+  2, &quot;3&quot;,
+  3, &quot;4&quot;,
+  4, &quot;5&quot;,
+  5, &quot;6&quot;, 
+  &quot;7&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Field Filter: Day</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
