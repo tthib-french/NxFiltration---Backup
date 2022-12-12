@@ -154,4 +154,8 @@
         <errorMessage></errorMessage>
         <name>You_cannot_change_status</name>
     </validationRules>
+    <webLinks>
+        <label></label>
+        <name>New_Pilot_Test</name>
+    </webLinks>
 </CustomObjectTranslation>

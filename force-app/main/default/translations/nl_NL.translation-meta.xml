@@ -7393,18 +7393,6 @@
         <name>rh2__AddToRollupGroup</name>
     </customLabels>
     <customLabels>
-        <label><!-- Additional Settings --></label>
-        <name>rh2__AdditionalSettings</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Adjust Exception Lifespan --></label>
-        <name>rh2__AdjustExceptionLifespan</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Adjust Field Accessibility --></label>
-        <name>rh2__AdjustFieldAccessibility</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Advanced Configuration --></label>
         <name>rh2__AdvancedConfig</name>
     </customLabels>
@@ -7417,10 +7405,6 @@
         <name>rh2__AdvancedMultipicklistConfig</name>
     </customLabels>
     <customLabels>
-        <label><!-- Advanced Picklist Select --></label>
-        <name>rh2__AdvancedPicklistSelect</name>
-    </customLabels>
-    <customLabels>
         <label><!-- All Active Rollups --></label>
         <name>rh2__AllActiveRollups</name>
     </customLabels>
@@ -7431,18 +7415,6 @@
     <customLabels>
         <label><!-- All Rollups --></label>
         <name>rh2__AllRollups</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- All rollups were imported successfully --></label>
-        <name>rh2__AllRollupsImported</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- All Use Cases --></label>
-        <name>rh2__AllUseCases</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Allow Child If Parent Save Fails --></label>
-        <name>rh2__AllowChildSaveIfParentSaveFails</name>
     </customLabels>
     <customLabels>
         <label><!-- Allow Realtime Disablement? --></label>
@@ -7465,10 +7437,6 @@
         <name>rh2__ApexTrigger</name>
     </customLabels>
     <customLabels>
-        <label><!-- Append &apos;and&apos; between last two values --></label>
-        <name>rh2__AppendAnd</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Append To Existing Target Field Information --></label>
         <name>rh2__AppendField</name>
     </customLabels>
@@ -7481,15 +7449,11 @@
         <name>rh2__AreYouSureYouWantToDeleteAllRollupsFromThisGroup</name>
     </customLabels>
     <customLabels>
-        <label><!-- Are you sure you want to delete selected rollups? --></label>
-        <name>rh2__AreYouSureYouWantToDeleteSelectedRollups</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Are you sure you want to delete selected rollups from this group? --></label>
         <name>rh2__AreYouSureYouWantToDeleteSelectedRollupsFromThisGroup</name>
     </customLabels>
     <customLabels>
-        <label><!-- Are you sure you want to delete --></label>
+        <label><!-- Are you sure you want to delete this rollup? --></label>
         <name>rh2__AreYouSureYouWantToDeleteThisRollup</name>
     </customLabels>
     <customLabels>
@@ -7499,14 +7463,6 @@
     <customLabels>
         <label><!-- Are you sure you want to prevent realtime disablement? --></label>
         <name>rh2__AreYouSureYouWantToPreventRealtime</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Are you sure you would like to activate --></label>
-        <name>rh2__AreYouSureYouWouldLikeToActivate</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Are you sure you would like to deactivate --></label>
-        <name>rh2__AreYouSureYouWouldLikeToDeactivate</name>
     </customLabels>
     <customLabels>
         <label><!-- as possible.  If you need more information / assistance regarding --></label>
@@ -7523,10 +7479,6 @@
     <customLabels>
         <label><!-- At least one child record was found matching the current Rollup Query. --></label>
         <name>rh2__AtLeastOneChild</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Audit --></label>
-        <name>rh2__Audit</name>
     </customLabels>
     <customLabels>
         <label><!-- Available Rollups --></label>
@@ -7547,10 +7499,6 @@
     <customLabels>
         <label><!-- Back --></label>
         <name>rh2__Back</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Base64-encoded data cannot be read from all file types --></label>
-        <name>rh2__Base64DataCannotBeRead</name>
     </customLabels>
     <customLabels>
         <label><!-- NOT be overwritten by a blank value because Blank Overwrite is false. --></label>
@@ -7585,10 +7533,6 @@
         <name>rh2__Cancel</name>
     </customLabels>
     <customLabels>
-        <label><!-- Rollup Cannot Retrieve Archived Records --></label>
-        <name>rh2__CannotRetrieveArchivedRecords</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Change Filter Logic --></label>
         <name>rh2__ChangeFilterLogic</name>
     </customLabels>
@@ -7603,10 +7547,6 @@
     <customLabels>
         <label><!-- Changes made to active and inactive rollups will be saved --></label>
         <name>rh2__ChangesMadeToActiveAndInactive</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Chat with us to help create your first rollup today --></label>
-        <name>rh2__ChatToCreateFirstRollup</name>
     </customLabels>
     <customLabels>
         <label><!-- Check Queue --></label>
@@ -7629,7 +7569,7 @@
         <name>rh2__Child</name>
     </customLabels>
     <customLabels>
-        <label><!-- child records per parent --></label>
+        <label><!-- child records per parent. --></label>
         <name>rh2__ChildRecordsPerParent</name>
     </customLabels>
     <customLabels>
@@ -7639,10 +7579,6 @@
     <customLabels>
         <label><!-- Clear --></label>
         <name>rh2__Clear</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Clear Export Records --></label>
-        <name>rh2__ClearExportRecords</name>
     </customLabels>
     <customLabels>
         <label><!-- Click --></label>
@@ -7701,10 +7637,6 @@
         <name>rh2__ContactSupport</name>
     </customLabels>
     <customLabels>
-        <label><!-- Convert DLRS Settings To Rollups --></label>
-        <name>rh2__ConvertDLRSToRollups</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Convert Deprecated Filters --></label>
         <name>rh2__ConvertDeprecatedFilters</name>
     </customLabels>
@@ -7725,43 +7657,23 @@
         <name>rh2__Create</name>
     </customLabels>
     <customLabels>
-        <label><!-- Create a relationship field! --></label>
-        <name>rh2__CreateARelationshipField</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Create Customized View Of Grouped Rollups --></label>
         <name>rh2__CreateCustomizedViewOfGroupedRollups</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Create Export Records For All Rollups --></label>
-        <name>rh2__CreateExportRecordsForAll</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Create Export Records For Selected Rollups --></label>
-        <name>rh2__CreateExportRecordsForSelected</name>
     </customLabels>
     <customLabels>
         <label><!-- Create New Filter --></label>
         <name>rh2__CreateNewFilter</name>
     </customLabels>
     <customLabels>
-        <label><!-- Create New Parent Filter --></label>
-        <name>rh2__CreateNewParentFilter</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Create Relationship Field --></label>
-        <name>rh2__CreateRelationshipField</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Create Rollup --></label>
         <name>rh2__CreateRollup</name>
     </customLabels>
     <customLabels>
-        <label><!-- Create Group --></label>
+        <label><!-- Create Rollup Group --></label>
         <name>rh2__CreateRollupGroup</name>
     </customLabels>
     <customLabels>
-        <label><!-- Create Group From Selected Rollups --></label>
+        <label><!-- Create Rollup Group From Selected Rollups --></label>
         <name>rh2__CreateRollupGroupSelectedRollups</name>
     </customLabels>
     <customLabels>
@@ -7771,10 +7683,6 @@
     <customLabels>
         <label><!-- Created Date --></label>
         <name>rh2__CreatedDate</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Creating a custom parent filter is optional but recommended --></label>
-        <name>rh2__CreatingACustomParentFilter</name>
     </customLabels>
     <customLabels>
         <label><!-- Creating a custom filter is optional but recommended --></label>
@@ -7795,10 +7703,6 @@
     <customLabels>
         <label><!-- Custom Filter --></label>
         <name>rh2__CustomFilter</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Custom Realtime Parent Filter --></label>
-        <name>rh2__CustomRealtimeParentFilter</name>
     </customLabels>
     <customLabels>
         <label><!-- DML Failed Record IDs --></label>
@@ -7823,10 +7727,6 @@
     <customLabels>
         <label><!-- date field used for dated currency conversion. --></label>
         <name>rh2__DateFieldUsedForDated</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- day(s) --></label>
-        <name>rh2__Days</name>
     </customLabels>
     <customLabels>
         <label><!-- Decimal Places --></label>
@@ -7857,7 +7757,7 @@
         <name>rh2__Delete</name>
     </customLabels>
     <customLabels>
-        <label><!-- Delete Group --></label>
+        <label><!-- Delete Rollup Group --></label>
         <name>rh2__DeleteRollupGroup</name>
     </customLabels>
     <customLabels>
@@ -7871,18 +7771,6 @@
     <customLabels>
         <label><!-- Deploy --></label>
         <name>rh2__Deploy</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Deploy and Run --></label>
-        <name>rh2__DeployandRun</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Deployed --></label>
-        <name>rh2__Deployed</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- How deploying content document foreign key triggers works --></label>
-        <name>rh2__DeployingContentDocumentFKTriggers</name>
     </customLabels>
     <customLabels>
         <label><!-- Deprecated Filters Identified --></label>
@@ -7913,19 +7801,15 @@
         <name>rh2__DoesNotExist</name>
     </customLabels>
     <customLabels>
-        <label><!-- Does Not Overwrite Populated Field Values --></label>
+        <label><!-- Does Not Overwrite Field Values --></label>
         <name>rh2__DoesNotOverwrite</name>
     </customLabels>
     <customLabels>
-        <label><!-- Does Not Overwrite Populated Fields With Blank Values --></label>
-        <name>rh2__DoesNotOverwriteBlank</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Don&apos;t see the source object you want to use? Use Lookup Helper --></label>
+        <label><!-- Don&apos;t see the source object you want to use?  Use Lookup Helper --></label>
         <name>rh2__DontSeeSourceInstalled</name>
     </customLabels>
     <customLabels>
-        <label><!-- Don&apos;t see the source object you want to use? --></label>
+        <label><!-- Don&apos;t see the source object you want to use?  Install Lookup Helper! --></label>
         <name>rh2__DontSeeSourceNotInstalled</name>
     </customLabels>
     <customLabels>
@@ -7939,14 +7823,6 @@
     <customLabels>
         <label><!-- Download --></label>
         <name>rh2__Download</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Download Export File --></label>
-        <name>rh2__DownloadExportFile</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Download Rollup Exports --></label>
-        <name>rh2__DownloadRollupExports</name>
     </customLabels>
     <customLabels>
         <label><!-- Dynamic Package Asynchronous Threshold --></label>
@@ -7965,11 +7841,7 @@
         <name>rh2__EditFilter</name>
     </customLabels>
     <customLabels>
-        <label><!-- Edit Rollup --></label>
-        <name>rh2__EditRollup</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Edit Group --></label>
+        <label><!-- Edit Rollup Group --></label>
         <name>rh2__EditRollupGroup</name>
     </customLabels>
     <customLabels>
@@ -7989,10 +7861,6 @@
         <name>rh2__Enable</name>
     </customLabels>
     <customLabels>
-        <label><!-- Enable Granular Scheduled Jobs? --></label>
-        <name>rh2__EnableGranularScheduledJobs</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Enable Notifications --></label>
         <name>rh2__EnableNotifications</name>
     </customLabels>
@@ -8009,24 +7877,8 @@
         <name>rh2__EnableValidationRule</name>
     </customLabels>
     <customLabels>
-        <label><!-- Enhanced Validation --></label>
-        <name>rh2__EnhancedValidation</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Enhanced Validation requires the source object to run synchronously --></label>
-        <name>rh2__EnhancedValidationRequires</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Ensure entered values match API value --></label>
-        <name>rh2__EnsureEnteredValuesMatchAPIValue</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Enter --></label>
         <name>rh2__Enter</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Enumerate Text Rollup Results --></label>
-        <name>rh2__EnumerateResults</name>
     </customLabels>
     <customLabels>
         <label><!-- Error: Please enter a non empty and unique value --></label>
@@ -8043,10 +7895,6 @@
     <customLabels>
         <label><!-- Exception Help --></label>
         <name>rh2__ExceptionHelp</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- The Exception Lifespan custom setting controls how long --></label>
-        <name>rh2__ExceptionLifespanCustomSetting</name>
     </customLabels>
     <customLabels>
         <label><!-- This exception may prevent the rollup from processing. --></label>
@@ -8069,16 +7917,8 @@
         <name>rh2__Existing</name>
     </customLabels>
     <customLabels>
-        <label><!-- Existing DLRS settings may be converted --></label>
-        <name>rh2__ExistingDLRSSettings</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Existing Rollups --></label>
         <name>rh2__ExistingRollups</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Exists --></label>
-        <name>rh2__Exists</name>
     </customLabels>
     <customLabels>
         <label><!-- Export --></label>
@@ -8089,16 +7929,8 @@
         <name>rh2__ExportAll</name>
     </customLabels>
     <customLabels>
-        <label><!-- Export Rollups --></label>
-        <name>rh2__ExportRollups</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Export Selected --></label>
         <name>rh2__ExportSelected</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Manual Run Only Foreign Key Rollup Found --></label>
-        <name>rh2__FKManualRunOnlyRollupFound</name>
     </customLabels>
     <customLabels>
         <label><!-- Want to give us feedback?  Need assistance? --></label>
@@ -8121,16 +7953,8 @@
         <name>rh2__FieldInUse</name>
     </customLabels>
     <customLabels>
-        <label><!-- field is deployed! --></label>
-        <name>rh2__FieldIsDeployed</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Field Label --></label>
         <name>rh2__FieldLabel</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Field Level Security will not be automatically set --></label>
-        <name>rh2__FieldLevelSecurityWillNotBeSet</name>
     </customLabels>
     <customLabels>
         <label><!-- Field Name --></label>
@@ -8209,10 +8033,6 @@
         <name>rh2__ForceAsynchronous</name>
     </customLabels>
     <customLabels>
-        <label><!-- Force Asynchronous requires the source object to run asynchronously --></label>
-        <name>rh2__ForceAsynchronousRequires</name>
-    </customLabels>
-    <customLabels>
         <label><!-- From the Community --></label>
         <name>rh2__FromTheCommunity</name>
     </customLabels>
@@ -8223,10 +8043,6 @@
     <customLabels>
         <label><!-- Get Help --></label>
         <name>rh2__GetHelp</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Get live assistance now --></label>
-        <name>rh2__GetLiveAssistanceNow</name>
     </customLabels>
     <customLabels>
         <label><!-- Get Nonprofit Coupon Code --></label>
@@ -8261,10 +8077,6 @@
         <name>rh2__HelpText</name>
     </customLabels>
     <customLabels>
-        <label><!-- here --></label>
-        <name>rh2__Here</name>
-    </customLabels>
-    <customLabels>
         <label><!-- high risk --></label>
         <name>rh2__HighRisk</name>
     </customLabels>
@@ -8289,28 +8101,12 @@
         <name>rh2__IfCheckedAppend</name>
     </customLabels>
     <customLabels>
-        <label><!-- If checked, the the source field used for Count Rollups can be changed --></label>
-        <name>rh2__IfCheckedChangeSourceField</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- If checked, rollup results will append &apos;and&apos; between last two values --></label>
-        <name>rh2__IfCheckedCommaAnd</name>
-    </customLabels>
-    <customLabels>
         <label><!-- If checked, Rollup Helper will trim any delimiters --></label>
         <name>rh2__IfCheckedDelimiters</name>
     </customLabels>
     <customLabels>
-        <label><!-- If checked, Rollup Helper will enumerate results --></label>
-        <name>rh2__IfCheckedEnumerate</name>
-    </customLabels>
-    <customLabels>
         <label><!-- If checked, Rollup Helper will not count each selection --></label>
         <name>rh2__IfCheckedMultiselect</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- If checked, Rollup Helper will roll up 0 as null --></label>
-        <name>rh2__IfCheckedRollUpZeroAsNull</name>
     </customLabels>
     <customLabels>
         <label><!-- If checked, Rollup Helper will only include unique source records --></label>
@@ -8323,10 +8119,6 @@
     <customLabels>
         <label><!-- If checked, Rollup Helper will roll up from archived and non-archived records. --></label>
         <name>rh2__IfCheckedWillRollupFromBothArchived</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- If unchecked, scheduled jobs will only run at the top of the hour --></label>
-        <name>rh2__IfGranularScheduledJobsIsEnabled</name>
     </customLabels>
     <customLabels>
         <label><!-- If this realtime trigger is deployed, existing fields will --></label>
@@ -8357,14 +8149,6 @@
         <name>rh2__Ignore</name>
     </customLabels>
     <customLabels>
-        <label><!-- Import Retry Failed --></label>
-        <name>rh2__ImportRetryFailed</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Import Retry Succeeded --></label>
-        <name>rh2__ImportRetrySucceeded</name>
-    </customLabels>
-    <customLabels>
         <label><!-- In order to disable realtime (by script) on an object --></label>
         <name>rh2__InOrderToDisableRealtime</name>
     </customLabels>
@@ -8373,24 +8157,12 @@
         <name>rh2__InOrderToImproveDataBase</name>
     </customLabels>
     <customLabels>
-        <label><!-- In the event of a tie for most common value, Rollup Helper --></label>
-        <name>rh2__InTheEventOfATie</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Inactive --></label>
         <name>rh2__Inactive</name>
     </customLabels>
     <customLabels>
         <label><!-- Individual lists are seperated by commas (,) --></label>
         <name>rh2__IndividualListAreSeparated</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Install Lookup Helper --></label>
-        <name>rh2__InstallLH</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Install Lookup Helper or --></label>
-        <name>rh2__InstallLHOr</name>
     </customLabels>
     <customLabels>
         <label><!-- Interval --></label>
@@ -8405,10 +8177,6 @@
         <name>rh2__InvalidField</name>
     </customLabels>
     <customLabels>
-        <label><!-- Invalid Rollup Configuration --></label>
-        <name>rh2__InvalidRollupConfiguration</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Invalid target field --></label>
         <name>rh2__InvalidTargetField</name>
     </customLabels>
@@ -8421,12 +8189,8 @@
         <name>rh2__IsCurrentlyNotAccessible</name>
     </customLabels>
     <customLabels>
-        <label><!-- is installed and Active. --></label>
+        <label><!-- is installed. --></label>
         <name>rh2__IsInstalled</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- is installed but is Inactive. --></label>
-        <name>rh2__IsInstalledAndInactive</name>
     </customLabels>
     <customLabels>
         <label><!-- Issue Found --></label>
@@ -8443,10 +8207,6 @@
     <customLabels>
         <label><!-- Job Status --></label>
         <name>rh2__JobStatus</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Lookup Helper can help automatically populate relationships and maintain them. --></label>
-        <name>rh2__LHCanHelpManageRelationships</name>
     </customLabels>
     <customLabels>
         <label><!-- Label --></label>
@@ -8469,10 +8229,6 @@
         <name>rh2__LastActivationStatusChangedBy</name>
     </customLabels>
     <customLabels>
-        <label><!-- Last Manual Run History --></label>
-        <name>rh2__LastManualRunHistory</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Last Modified By --></label>
         <name>rh2__LastModifiedBy</name>
     </customLabels>
@@ -8481,16 +8237,8 @@
         <name>rh2__LastModifiedDate</name>
     </customLabels>
     <customLabels>
-        <label><!-- The User who last ran a manual rollup --></label>
-        <name>rh2__LastRanBy</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Last Run --></label>
         <name>rh2__LastRun</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Last Run Date for a manual rollup --></label>
-        <name>rh2__LastRunDate</name>
     </customLabels>
     <customLabels>
         <label><!-- Length --></label>
@@ -8553,10 +8301,6 @@
         <name>rh2__MaxQueueableJobs</name>
     </customLabels>
     <customLabels>
-        <label><!-- A maximum of two sub-filters are allowed per filter --></label>
-        <name>rh2__MaxSubFilters</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Maximum --></label>
         <name>rh2__Maximum</name>
     </customLabels>
@@ -8569,19 +8313,7 @@
         <name>rh2__Minimum</name>
     </customLabels>
     <customLabels>
-        <label><!-- Mode --></label>
-        <name>rh2__Mode</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Mode Tiebreaker --></label>
-        <name>rh2__ModeTieBreaker</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Monitor Rollup Queue --></label>
-        <name>rh2__MonitorRollupQueue</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- My source object isn&apos;t appearing in the list. Why? --></label>
+        <label><!-- My source object isn&apos;t appearing in the list.  Why? --></label>
         <name>rh2__MySourceObjNotAppearing</name>
     </customLabels>
     <customLabels>
@@ -8591,10 +8323,6 @@
     <customLabels>
         <label><!-- Name and Description --></label>
         <name>rh2__NameAndDescription</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Need additional help? --></label>
-        <name>rh2__NeedAdditionalHelp</name>
     </customLabels>
     <customLabels>
         <label><!-- Need more? --></label>
@@ -8617,14 +8345,6 @@
         <name>rh2__NextRun</name>
     </customLabels>
     <customLabels>
-        <label><!-- The next run time for this schedule is currently set in the past --></label>
-        <name>rh2__NextRunTimeIsSetInPast</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- No --></label>
-        <name>rh2__No</name>
-    </customLabels>
-    <customLabels>
         <label><!-- No Active Rollups Exist --></label>
         <name>rh2__NoActiveRollupsExist</name>
     </customLabels>
@@ -8633,7 +8353,7 @@
         <name>rh2__NoAuditInfo</name>
     </customLabels>
     <customLabels>
-        <label><!-- No exceptions were found. --></label>
+        <label><!-- No exceptions were found.  Please select a target object to view exceptions. --></label>
         <name>rh2__NoExceptionsFound</name>
     </customLabels>
     <customLabels>
@@ -8641,16 +8361,8 @@
         <name>rh2__NoJobsWereFound</name>
     </customLabels>
     <customLabels>
-        <label><!-- No manual runs of this rollup are found. --></label>
-        <name>rh2__NoManualRuns</name>
-    </customLabels>
-    <customLabels>
         <label><!-- No queue items were found.  Please select an object from the dropdown above. --></label>
         <name>rh2__NoQueueItemsWereFound</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- No records reported by this exception. --></label>
-        <name>rh2__NoRecordsReported</name>
     </customLabels>
     <customLabels>
         <label><!-- No rollup settings exist yet. --></label>
@@ -8693,10 +8405,6 @@
         <name>rh2__Number</name>
     </customLabels>
     <customLabels>
-        <label><!-- Records the number of used records --></label>
-        <name>rh2__NumberOfUsedRecords</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Number of Visible Lines --></label>
         <name>rh2__NumberOfVisible</name>
     </customLabels>
@@ -8713,24 +8421,12 @@
         <name>rh2__ObjectNow</name>
     </customLabels>
     <customLabels>
-        <label><!-- of --></label>
-        <name>rh2__Of</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- on any use case for easy, one-click deployment --></label>
-        <name>rh2__OnAnyUseCase</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Open the Settings pane to set the Running User. --></label>
         <name>rh2__OpenTheSettingsPane</name>
     </customLabels>
     <customLabels>
         <label><!-- Operator --></label>
         <name>rh2__Operator</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Opting Out of Push Upgrades --></label>
-        <name>rh2__OptOutOfPushUpgrades</name>
     </customLabels>
     <customLabels>
         <label><!-- or email --></label>
@@ -8741,20 +8437,12 @@
         <name>rh2__Order</name>
     </customLabels>
     <customLabels>
-        <label><!-- API Callouts are not supported --></label>
-        <name>rh2__OrgDoesNotHaveAPIAccess</name>
-    </customLabels>
-    <customLabels>
         <label><!-- our support team --></label>
         <name>rh2__OurSupportTeam</name>
     </customLabels>
     <customLabels>
         <label><!-- Overwrite Existing Target Field Information --></label>
         <name>rh2__OverwriteExistingTargetField</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Parent Condition --></label>
-        <name>rh2__ParentCondition</name>
     </customLabels>
     <customLabels>
         <label><!-- Parent Filter --></label>
@@ -8765,36 +8453,12 @@
         <name>rh2__ParentFilterOptional</name>
     </customLabels>
     <customLabels>
-        <label><!-- Partial Real Time Enabled For This Rollup --></label>
-        <name>rh2__PartialRealtimeEnabled</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Past Parent Filter Used --></label>
-        <name>rh2__PastParentFilter</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- By default, rollups targeting a phone field will sort by CreatedDate DESC --></label>
-        <name>rh2__PhoneTargetDefaultSort</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Pipe (|) --></label>
         <name>rh2__Pipe</name>
     </customLabels>
     <customLabels>
-        <label><!-- Please ensure that the trigger is Active by going to Setup -&gt; Apex Triggers. --></label>
-        <name>rh2__PleaseEnsureTriggerIsActive</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Please enter a value between 1 and 99 --></label>
-        <name>rh2__PleaseEnter1To99</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Please Note: --></label>
         <name>rh2__PleaseNote</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Please note: The Rollup Helper Exception Monitor must be scheduled --></label>
-        <name>rh2__PleaseNoteExceptionMonitor</name>
     </customLabels>
     <customLabels>
         <label><!-- Field Level Security . --></label>
@@ -8837,28 +8501,8 @@
         <name>rh2__PleaseSelectARollupTargetObject</name>
     </customLabels>
     <customLabels>
-        <label><!-- Please update the rollup to ensure all objects and fields exist --></label>
-        <name>rh2__PleaseUpdateRollupToEnsure</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Please Upgrade --></label>
         <name>rh2__PleaseUpgrade</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Polymorphic Sub-Filters allow you to create complex filters --></label>
-        <name>rh2__PolymorphicSubFiltersAllow</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Preview Failed Records --></label>
-        <name>rh2__PreviewFailedRecords</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Below is a list of records reported as failed by this exception --></label>
-        <name>rh2__PreviewFailedRecordsMessage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Preview Records --></label>
-        <name>rh2__PreviewRecords</name>
     </customLabels>
     <customLabels>
         <label><!-- Preview Rollup Results --></label>
@@ -8875,10 +8519,6 @@
     <customLabels>
         <label><!-- Priority --></label>
         <name>rh2__Priority</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Proceed --></label>
-        <name>rh2__Proceed</name>
     </customLabels>
     <customLabels>
         <label><!-- Process Builder / Flow Exceptions Found --></label>
@@ -8909,7 +8549,7 @@
         <name>rh2__RealTime</name>
     </customLabels>
     <customLabels>
-        <label><!-- Real Time Disabled On Source Object Or Trigger --></label>
+        <label><!-- Real Time Disabled By Setting --></label>
         <name>rh2__RealTimeDisabled</name>
     </customLabels>
     <customLabels>
@@ -8917,16 +8557,8 @@
         <name>rh2__RealTimeDisabledForThisRollup</name>
     </customLabels>
     <customLabels>
-        <label><!-- Realtime is currently disabled for one or more objects --></label>
-        <name>rh2__RealtimeDisabledForOneOrMoreObjects</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Real Time Triggers in Org --></label>
         <name>rh2__RealtimeTriggersInOrg</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Record links will only navigate to the record --></label>
-        <name>rh2__RecordLinksWillOnly</name>
     </customLabels>
     <customLabels>
         <label><!-- Record Scope --></label>
@@ -8943,10 +8575,6 @@
     <customLabels>
         <label><!-- Records Affected --></label>
         <name>rh2__RecordsAffected</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Records Processed --></label>
-        <name>rh2__RecordsProcessed</name>
     </customLabels>
     <customLabels>
         <label><!-- Records Remaining --></label>
@@ -8997,36 +8625,16 @@
         <name>rh2__RequiredFieldExceptionsFound</name>
     </customLabels>
     <customLabels>
-        <label><!-- Used on the rollup creation page --></label>
-        <name>rh2__RestrictedPicklistTarget</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Retry --></label>
         <name>rh2__Retry</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Retry Import --></label>
-        <name>rh2__RetryImport</name>
     </customLabels>
     <customLabels>
         <label><!-- Risk Level --></label>
         <name>rh2__RiskLevel</name>
     </customLabels>
     <customLabels>
-        <label><!-- Roll Up Zero Result As Null --></label>
-        <name>rh2__RollUpZeroResultAsNull</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Rollup --></label>
         <name>rh2__Rollup</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- This rollup contains an invalid --></label>
-        <name>rh2__RollupContainsInvalid</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Rollup could not be imported --></label>
-        <name>rh2__RollupCouldNotBeImported</name>
     </customLabels>
     <customLabels>
         <label><!-- Rollup Deactivated Due To An Exception --></label>
@@ -9041,20 +8649,12 @@
         <name>rh2__RollupFilterEditor</name>
     </customLabels>
     <customLabels>
-        <label><!-- Rollup Group Menu --></label>
-        <name>rh2__RollupGroupMenu</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Rollup Helper --></label>
         <name>rh2__RollupHelper</name>
     </customLabels>
     <customLabels>
         <label><!-- Rollup Helper Exceptions --></label>
         <name>rh2__RollupHelperExceptions</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Rollup Helper has encountered one or more exceptions --></label>
-        <name>rh2__RollupHelperExceptionsFound</name>
     </customLabels>
     <customLabels>
         <label><!-- Rollup Helper Health Check --></label>
@@ -9065,20 +8665,8 @@
         <name>rh2__RollupHelperQueue</name>
     </customLabels>
     <customLabels>
-        <label><!-- Rollup Helper Setting --></label>
-        <name>rh2__RollupHelperSetting</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Rollup Helper Use Case Library --></label>
-        <name>rh2__RollupHelperUCLibrary</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Rollup Label --></label>
         <name>rh2__RollupLabel</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- This rollup may encounter errors if an archived record is referenced --></label>
-        <name>rh2__RollupMayEncounterArchiveErrors</name>
     </customLabels>
     <customLabels>
         <label><!-- Rollup Name --></label>
@@ -9095,10 +8683,6 @@
     <customLabels>
         <label><!-- Rollup Query Validation --></label>
         <name>rh2__RollupQueryValidation</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Rollup References Invalid Filter --></label>
-        <name>rh2__RollupReferencesInvalidFilter</name>
     </customLabels>
     <customLabels>
         <label><!-- Rollup Schedule Management --></label>
@@ -9143,10 +8727,6 @@
     <customLabels>
         <label><!-- Run Every --></label>
         <name>rh2__RunEvery</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Will run for all records matching parent filter --></label>
-        <name>rh2__RunForAllMatchingRecs</name>
     </customLabels>
     <customLabels>
         <label><!-- Run for all records --></label>
@@ -9253,20 +8833,12 @@
         <name>rh2__SelectMatchingTargetTypes</name>
     </customLabels>
     <customLabels>
-        <label><!-- Select A Parent Filter --></label>
-        <name>rh2__SelectParentFilter</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Select Relationship Field --></label>
         <name>rh2__SelectRelationshipField</name>
     </customLabels>
     <customLabels>
         <label><!-- Select Rollups for Export --></label>
         <name>rh2__SelectRollupsForExport</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Select Rollups to Delete --></label>
-        <name>rh2__SelectRollupsToDelete</name>
     </customLabels>
     <customLabels>
         <label><!-- Select Source Object to Enable/Disable Real-time Updating --></label>
@@ -9313,10 +8885,6 @@
         <name>rh2__Set</name>
     </customLabels>
     <customLabels>
-        <label><!-- Setting --></label>
-        <name>rh2__Setting</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Settings --></label>
         <name>rh2__Settings</name>
     </customLabels>
@@ -9335,10 +8903,6 @@
     <customLabels>
         <label><!-- Skip running tests other than the test for this trigger --></label>
         <name>rh2__SkipRunningTests</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Used in Rollup Filter Editor, Step 1. Enter Filter Name &amp; Read Only Rollups --></label>
-        <name>rh2__Skips</name>
     </customLabels>
     <customLabels>
         <label><!-- Slash (/) --></label>
@@ -9409,10 +8973,6 @@
         <name>rh2__Step4Save</name>
     </customLabels>
     <customLabels>
-        <label><!-- Sub-Filter --></label>
-        <name>rh2__SubFilter</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Submit --></label>
         <name>rh2__Submit</name>
     </customLabels>
@@ -9441,32 +9001,12 @@
         <name>rh2__TargetFieldShorterLength</name>
     </customLabels>
     <customLabels>
-        <label><!-- Target Object --></label>
-        <name>rh2__TargetObject</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Target Query Preview --></label>
-        <name>rh2__TargetQueryPreview</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Text --></label>
-        <name>rh2__Text</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Text Field Length --></label>
         <name>rh2__TextFieldLength</name>
     </customLabels>
     <customLabels>
-        <label><!-- Text Rollup Settings --></label>
-        <name>rh2__TextRollupSettings</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Text Separated By: --></label>
         <name>rh2__TextSeparatedBy</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- The --></label>
-        <name>rh2__The</name>
     </customLabels>
     <customLabels>
         <label><!-- The current rollup query has been run in order to validate the results --></label>
@@ -9481,7 +9021,7 @@
         <name>rh2__TheRollupHelperAllAccess</name>
     </customLabels>
     <customLabels>
-        <label><!-- Please Note: Inline edits in progress --></label>
+        <label><!-- There are inline edits in progress. --></label>
         <name>rh2__TherAreInlineEdits</name>
     </customLabels>
     <customLabels>
@@ -9511,18 +9051,6 @@
     <customLabels>
         <label><!-- To CSV File --></label>
         <name>rh2__ToCSVFile</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- to delete the Rollup Helper Setting --></label>
-        <name>rh2__ToDeleteRHSetting</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- to deploy the target field --></label>
-        <name>rh2__ToDeployField</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- to deploy the Rollup Helper Setting --></label>
-        <name>rh2__ToDeployRHSetting</name>
     </customLabels>
     <customLabels>
         <label><!-- To edit the append setting, you must first disable overwrite. --></label>
@@ -9601,20 +9129,12 @@
         <name>rh2__URLCopied</name>
     </customLabels>
     <customLabels>
-        <label><!-- By default, rollups targeting a URL field will sort by CreatedDate DESC --></label>
-        <name>rh2__URLTargetDefaultSort</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Unable to create new rollup settings using Data Analysis Helper --></label>
         <name>rh2__UnableToCreateRollup</name>
     </customLabels>
     <customLabels>
         <label><!-- Unable To Enable Realtime --></label>
         <name>rh2__UnableToEnableRealtime</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Rollup Helper was unable to import one or more rollup(s) --></label>
-        <name>rh2__UnableToImportRollup</name>
     </customLabels>
     <customLabels>
         <label><!-- Unchecked --></label>
@@ -9633,14 +9153,6 @@
         <name>rh2__UnusedRollupHelper</name>
     </customLabels>
     <customLabels>
-        <label><!-- Update --></label>
-        <name>rh2__Update</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Update Sub-Filter Logic --></label>
-        <name>rh2__UpdateSubFilterLogic</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Upgrade Rollup Helper --></label>
         <name>rh2__UpgradeRollupHelper</name>
     </customLabels>
@@ -9651,10 +9163,6 @@
     <customLabels>
         <label><!-- Use Cases --></label>
         <name>rh2__UseCases</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Use LH --></label>
-        <name>rh2__UseLH</name>
     </customLabels>
     <customLabels>
         <label><!-- Use UTF-8 Encoding? --></label>
@@ -9669,15 +9177,7 @@
         <name>rh2__View</name>
     </customLabels>
     <customLabels>
-        <label><!-- View Audit Record --></label>
-        <name>rh2__ViewAuditRecord</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- View Exceptions --></label>
-        <name>rh2__ViewExceptions</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- View Exception Details --></label>
+        <label><!-- View Record Details --></label>
         <name>rh2__ViewRecordDetails</name>
     </customLabels>
     <customLabels>
@@ -9695,10 +9195,6 @@
     <customLabels>
         <label><!-- was deployed by default on install. --></label>
         <name>rh2__WasDeployedByDefault</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- was deployed by default on install but is Inactive. --></label>
-        <name>rh2__WasDeployedByDefaultAndInactive</name>
     </customLabels>
     <customLabels>
         <label><!-- We recommend enabling realtime because it processes rollups automatically --></label>
@@ -9727,10 +9223,6 @@
     <customLabels>
         <label><!-- Which Rollups are in this Queue Item? --></label>
         <name>rh2__WhichRollupsAreInThisQueueItem</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Yes --></label>
-        <name>rh2__Yes</name>
     </customLabels>
     <customLabels>
         <label><!-- You have activated --></label>
@@ -9774,6 +9266,14 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
+        <fullName>Account_hierarchy_sharing_flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_sharing_automation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
         <fullName>Campaign_Member_Send_Email_Create</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -9783,6 +9283,10 @@
     <flowDefinitions>
         <flows/>
         <fullName>Daily_Account_Hierarcy_sharing_rule_creation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Delete_Brochure_Leads_when_Created_Lead_Source_is_Contact_Form</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
@@ -9826,10 +9330,6 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
-        <fullName>Field_History_Tracking_Opportunity_products</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows/>
         <fullName>Flow_Volume_Discount</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -9846,7 +9346,7 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
-        <fullName>NewDraftOrder</fullName>
+        <fullName>Lydia_Account_sharing</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
@@ -9930,7 +9430,18 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
-        <fullName>Pilot_Create_Pilot_From_Activated_Order</fullName>
+        <fullName>Pilot_Create_Pilot_From_Orde_s_Related_Opportunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>DuplicateLeadMessage</name>
+            </textTemplates>
+            <textTemplates>
+                <name>ReferenceMainInquiry</name>
+            </textTemplates>
+        </flows>
+        <fullName>Prevent_Duplicate_Leads_on_Insert_From_Web_to_Lead</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
@@ -10092,6 +9603,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
+        <fullName>Subflow_test</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
         <fullName>Update_Order_with_QuoteLineItems</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -10219,19 +9734,6 @@
         </sections>
     </reportTypes>
     <reportTypes>
-        <description><!-- OpenOppsWithoutSyncedQuote --></description>
-        <label><!-- OpenOppsWithoutSyncedQuote --></label>
-        <name>OpenOppsWithoutSyncedQuote</name>
-        <sections>
-            <label><!-- Opportunities --></label>
-            <name>Opportunities</name>
-        </sections>
-        <sections>
-            <label><!-- Quotes --></label>
-            <name>Quotes</name>
-        </sections>
-    </reportTypes>
-    <reportTypes>
         <description><!-- Opportunities with Activities --></description>
         <label><!-- Opportunities with Activities --></label>
         <name>Opportunities_with_Activities</name>
@@ -10275,32 +9777,6 @@
         </sections>
     </reportTypes>
     <reportTypes>
-        <description><!-- Pilots and assets --></description>
-        <label><!-- Pilots and assets --></label>
-        <name>Pilots_and_assets</name>
-        <sections>
-            <label><!-- Assets --></label>
-            <name>Assets</name>
-        </sections>
-        <sections>
-            <label><!-- Pilots --></label>
-            <name>Pilots</name>
-        </sections>
-    </reportTypes>
-    <reportTypes>
-        <description><!-- Quota Lines with Opportunities --></description>
-        <label><!-- Quota Lines with Opportunities --></label>
-        <name>Quota_Lines_with_Opportunities</name>
-        <sections>
-            <label><!-- Opportunities --></label>
-            <name>Opportunities</name>
-        </sections>
-        <sections>
-            <label><!-- Quota Lines --></label>
-            <name>Quota Lines</name>
-        </sections>
-    </reportTypes>
-    <reportTypes>
         <description><!-- Quotas with quota lines with opportunities --></description>
         <label><!-- Quotas with quota lines with opportunities --></label>
         <name>Quotas_with_quota_lines_with_opportunities</name>
@@ -10324,19 +9800,6 @@
         <sections>
             <label><!-- Historical Data Opportunities --></label>
             <name>Historical Data Opportunities</name>
-        </sections>
-    </reportTypes>
-    <reportTypes>
-        <description><!-- Users with leads --></description>
-        <label><!-- Users with leads --></label>
-        <name>Users_with_leads</name>
-        <sections>
-            <label><!-- Leads (Lead Owner) --></label>
-            <name>Leads (Lead Owner)</name>
-        </sections>
-        <sections>
-            <label><!-- Users --></label>
-            <name>Users</name>
         </sections>
     </reportTypes>
     <reportTypes>

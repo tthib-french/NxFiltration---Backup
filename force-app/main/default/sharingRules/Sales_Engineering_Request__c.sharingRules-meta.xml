@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingCriteriaRules>
-        <fullName>Americas</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>Americas</label>
-        <sharedTo>
-            <group>Pilot_USA_CAD</group>
-        </sharedTo>
-        <criteriaItems>
-            <field>Account_BillingCountry__c</field>
-            <operation>equals</operation>
-            <value>United States,Canada</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Share_all_SER</fullName>
         <accessLevel>Edit</accessLevel>

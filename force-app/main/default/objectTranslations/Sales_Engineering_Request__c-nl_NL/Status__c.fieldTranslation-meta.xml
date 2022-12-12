@@ -14,8 +14,4 @@
         <masterLabel>Started</masterLabel>
         <translation></translation>
     </picklistValues>
-    <picklistValues>
-        <masterLabel>Waiting for additional info</masterLabel>
-        <translation></translation>
-    </picklistValues>
 </CustomFieldTranslation>

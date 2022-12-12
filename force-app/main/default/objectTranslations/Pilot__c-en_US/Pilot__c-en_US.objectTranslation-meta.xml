@@ -41,4 +41,8 @@
     </layouts>
     <nameFieldLabel></nameFieldLabel>
     <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label></label>
+        <name>New_Pilot_from_order</name>
+    </webLinks>
 </CustomObjectTranslation>

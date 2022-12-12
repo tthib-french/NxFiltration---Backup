@@ -13,10 +13,5 @@
     <columns>LEAD.LEAD_SOURCE</columns>
     <columns>LEAD.CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>LEAD.LEAD_SOURCE</field>
-        <operation>equals</operation>
-        <value>Website - Brochure</value>
-    </filters>
     <label>All Leads</label>
 </ListView>

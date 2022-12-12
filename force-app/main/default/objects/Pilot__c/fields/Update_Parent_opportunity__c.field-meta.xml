@@ -8,7 +8,6 @@
     <inlineHelpText>Latest update on Parent opportunity</inlineHelpText>
     <label>Update_Parent opportunity</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

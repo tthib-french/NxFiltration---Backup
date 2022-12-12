@@ -460,7 +460,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>declared_sharing_rule</name>
         <dataType>SObject</dataType>

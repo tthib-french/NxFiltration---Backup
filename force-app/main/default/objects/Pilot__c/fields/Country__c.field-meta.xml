@@ -4,9 +4,8 @@
     <externalId>false</externalId>
     <formula>Order__r.BillingCountry</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>DoNotUseCountry</label>
+    <label>Country</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

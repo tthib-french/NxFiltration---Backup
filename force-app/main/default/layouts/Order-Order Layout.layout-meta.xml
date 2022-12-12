@@ -27,10 +27,6 @@
                 <behavior>Readonly</behavior>
                 <field>EOL_Warehouse2__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TimeStamp__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -265,10 +261,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Exact_Online_Id__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Quota_Line__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>

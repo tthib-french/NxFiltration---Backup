@@ -102,10 +102,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>ContentAsset</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>CorsWhitelistOrigin</name>
 	</types>
 	<types>
@@ -156,7 +152,6 @@
 		<members>CollaborationGroupMember</members>
 		<members>Contact</members>
 		<members>ContactRequest</members>
-		<members>ContentVersion</members>
 		<members>Contract</members>
 		<members>ContractContactRole</members>
 		<members>Country_setting__c</members>
@@ -181,10 +176,6 @@
 		<members>Image</members>
 		<members>In_App_Checklist_Settings__c</members>
 		<members>Lead</members>
-		<members>LearningAssignment</members>
-		<members>LearningAssignmentProgress</members>
-		<members>LearningItem</members>
-		<members>LearningLinkProgress</members>
 		<members>Location</members>
 		<members>LocationTrustMeasure</members>
 		<members>MLModel</members>
@@ -243,7 +234,6 @@
 		<members>VideoCallParticipant</members>
 		<members>VideoCallRecording</members>
 		<members>Visit__c</members>
-		<members>VoiceCall</members>
 		<members>Volume_Discount__c</members>
 		<members>WorkBadge</members>
 		<members>WorkBadgeDefinition</members>
@@ -276,11 +266,9 @@
 		<members>rh2__PS_Export_Rollups__c</members>
 		<members>rh2__PS_Object_Realtime__c</members>
 		<members>rh2__PS_Queue__c</members>
-		<members>rh2__PS_Rollup_Audit__c</members>
 		<members>rh2__PS_Rollup_Dummy__c</members>
 		<members>rh2__PS_Rollup_Group__c</members>
 		<members>rh2__PS_Settings__c</members>
-		<members>rh2__PS_Use_Case_Library__mdt</members>
 		<members>rh2__RH_Job__c</members>
 		<members>rh2__Rollup_Helper_Record_Scope__c</members>
 		<name>CustomObject</name>
@@ -425,12 +413,6 @@
 		<name>LightningMessageChannel</name>
 	</types>
 	<types>
-		<members>cms_document</members>
-		<members>cms_image</members>
-		<members>news</members>
-		<name>ManagedContentType</name>
-	</types>
-	<types>
 		<members>*</members>
 		<name>MatchingRules</name>
 	</types>
@@ -515,6 +497,7 @@
 		<name>RedirectWhitelistUrl</name>
 	</types>
 	<types>
+		<members>ExactOauth</members>
 		<members>Production_Account</members>
 		<members>Production_Provisioning</members>
 		<members>Production_eSignature</members>

@@ -76,11 +76,6 @@
                 <default>false</default>
                 <label>Bexpert</label>
             </value>
-            <value>
-                <fullName>MexpertCP</fullName>
-                <default>false</default>
-                <label>MexpertCP</label>
-            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

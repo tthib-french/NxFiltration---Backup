@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>1</activeVersionNumber>
-    <description>Every day at midnight this flow first deletes all &apos;manual&apos; sharing rules in the org, and then creates &apos;manual&apos; sharing rules for every account for all the owners of the parent account tree.</description>
-    <masterLabel>Account Daily Hierarchy sharing rule creation</masterLabel>
+    <activeVersionNumber>9</activeVersionNumber>
 </FlowDefinition>

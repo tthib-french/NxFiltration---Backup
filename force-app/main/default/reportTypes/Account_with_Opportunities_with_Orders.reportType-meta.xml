@@ -361,12 +361,12 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Country_Code__c</field>
+            <field>Top_Level_Parent_Account__c</field>
             <table>Account</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>UltimateParent__c</field>
+            <field>TEST_ACCOUNT_HIERARCHY__c</field>
             <table>Account</table>
         </columns>
         <masterLabel>Accounts</masterLabel>
@@ -1388,11 +1388,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>PMC_Shadow_field__c</field>
-            <table>Account.Opportunities.Orders__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>TimeStamp__c</field>
             <table>Account.Opportunities.Orders__r</table>
         </columns>
         <masterLabel>Orders</masterLabel>

@@ -165,8 +165,8 @@
     <pluralLabel>Describes</pluralLabel>
     <searchLayouts>
         <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
-        <excludedStandardButtons>New</excludedStandardButtons>
         <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>New</excludedStandardButtons>
         <lookupDialogsAdditionalFields>rh2__Label__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>rh2__Object__c</lookupDialogsAdditionalFields>
     </searchLayouts>

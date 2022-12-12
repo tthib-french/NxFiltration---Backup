@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>All</fullName>
-    <columns>NAME</columns>
     <columns>Pilot_NAME__c</columns>
     <columns>pilot_engineer__c</columns>
     <columns>Account__c</columns>
     <columns>End_Date_Pilot__c</columns>
     <columns>Pilot_type__c</columns>
+    <columns>NAME</columns>
     <columns>Pilot_Goal__c</columns>
     <columns>Parent_Opportunity__c</columns>
     <columns>Commercial_Potential_Research__c</columns>

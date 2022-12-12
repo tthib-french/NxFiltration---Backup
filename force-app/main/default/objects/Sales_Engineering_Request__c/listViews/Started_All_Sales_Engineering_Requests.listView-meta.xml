@@ -8,7 +8,6 @@
     <columns>Description__c</columns>
     <columns>Opportunity__c</columns>
     <columns>OWNER.ALIAS</columns>
-    <columns>CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>Status__c</field>

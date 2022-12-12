@@ -4,9 +4,8 @@
     <externalId>false</externalId>
     <formula>Order__r.Opportunity__r.pilot_objective__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>DoNotUsePilot Objective</label>
+    <label>Pilot Objective</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

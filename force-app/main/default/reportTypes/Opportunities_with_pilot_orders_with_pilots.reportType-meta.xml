@@ -1042,11 +1042,6 @@
             <field>PMC_Shadow_field__c</field>
             <table>Opportunity.Orders__r</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>TimeStamp__c</field>
-            <table>Opportunity.Orders__r</table>
-        </columns>
         <masterLabel>Orders</masterLabel>
     </sections>
     <sections>
@@ -1232,22 +1227,22 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>BasePointCheck__c</field>
-            <table>Opportunity.Orders__r.Pilots__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Pilot_Name_V2__c</field>
             <table>Opportunity.Orders__r.Pilots__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Pilot_type_V2__c</field>
+            <field>Pilot_Objective_V2__c</field>
             <table>Opportunity.Orders__r.Pilots__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Module_V2__c</field>
+            <table>Opportunity.Orders__r.Pilots__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Pilot_type_V2__c</field>
             <table>Opportunity.Orders__r.Pilots__r</table>
         </columns>
         <columns>
@@ -1263,11 +1258,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Country_V2__c</field>
-            <table>Opportunity.Orders__r.Pilots__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Pilot_Objective_V2__c</field>
             <table>Opportunity.Orders__r.Pilots__r</table>
         </columns>
         <columns>

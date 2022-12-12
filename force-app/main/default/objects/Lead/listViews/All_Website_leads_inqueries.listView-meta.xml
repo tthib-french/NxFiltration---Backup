@@ -16,7 +16,7 @@
     <filters>
         <field>LEAD.LEAD_SOURCE</field>
         <operation>equals</operation>
-        <value>Website - Brochure</value>
+        <value>Website - Contact form</value>
     </filters>
     <filters>
         <field>LEAD.STATUS</field>

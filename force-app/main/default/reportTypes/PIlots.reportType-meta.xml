@@ -197,22 +197,22 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>BasePointCheck__c</field>
-            <table>Pilot__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Pilot_Name_V2__c</field>
             <table>Pilot__c</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Pilot_type_V2__c</field>
+            <field>Pilot_Objective_V2__c</field>
             <table>Pilot__c</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Module_V2__c</field>
+            <table>Pilot__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Pilot_type_V2__c</field>
             <table>Pilot__c</table>
         </columns>
         <columns>
@@ -228,11 +228,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Country_V2__c</field>
-            <table>Pilot__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Pilot_Objective_V2__c</field>
             <table>Pilot__c</table>
         </columns>
         <columns>

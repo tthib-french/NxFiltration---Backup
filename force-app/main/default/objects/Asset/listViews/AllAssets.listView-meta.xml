@@ -5,7 +5,6 @@
     <columns>Type__c</columns>
     <columns>ASSET.SERIAL_NUMBER</columns>
     <columns>Container_ID__c</columns>
-    <columns>Pilot_in_operation__c</columns>
     <filterScope>Everything</filterScope>
     <label>All Assets</label>
 </ListView>

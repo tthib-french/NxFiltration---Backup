@@ -40,7 +40,7 @@
         </rules>
         <rules>
             <name>Yes_Closed</name>
-            <conditionLogic>or</conditionLogic>
+            <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.IsClosed</leftValueReference>
                 <operator>EqualTo</operator>

@@ -30,14 +30,6 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/Order_Approval_Rejected</template>
     </alerts>
-    <alerts>
-        <fullName>NewDraftOrder</fullName>
-        <ccEmails>sales@nxfiltration.com</ccEmails>
-        <description>NewDraftOrder</description>
-        <protected>false</protected>
-        <senderType>CurrentUser</senderType>
-        <template>unfiled$public/NewDraftOrder</template>
-    </alerts>
     <fieldUpdates>
         <fullName>Approved</fullName>
         <field>Approval_Status__c</field>
@@ -68,18 +60,4 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
-    <rules>
-        <fullName>NewDraftOrder</fullName>
-        <actions>
-            <name>NewDraftOrder</name>
-            <type>Alert</type>
-        </actions>
-        <active>true</active>
-        <criteriaItems>
-            <field>Order.Status</field>
-            <operation>equals</operation>
-            <value>Draft</value>
-        </criteriaItems>
-        <triggerType>onCreateOnly</triggerType>
-    </rules>
 </Workflow>

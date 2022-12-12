@@ -40,4 +40,8 @@
             <section>System Information</section>
         </sections>
     </layouts>
+    <webLinks>
+        <label></label>
+        <name>New_Pilot_from_order</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -3,14 +3,12 @@
     <fullName>Pilot_All_Opportunities_w_o_Parent</fullName>
     <columns>OPPORTUNITY.NAME</columns>
     <columns>ACCOUNT.NAME</columns>
-    <columns>Pilot_type__c</columns>
     <columns>Grand_Total_NXF__c</columns>
-    <columns>Parent_Opportunity__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
     <columns>OPPORTUNITY.STAGE_NAME</columns>
     <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Expected_Revenue__c</columns>
     <columns>CORE.USERS.FULL_NAME</columns>
-    <columns>OPPORTUNITY.CREATED_DATE</columns>
-    <columns>OPPORTUNITY.LAST_UPDATE</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>OPPORTUNITY.RECORDTYPE</field>
@@ -20,11 +18,6 @@
     <filters>
         <field>Parent_Opportunity__c</field>
         <operation>equals</operation>
-    </filters>
-    <filters>
-        <field>OPPORTUNITY.STAGE_NAME</field>
-        <operation>notEqual</operation>
-        <value>Closed Won,Closed Lost,Canceled</value>
     </filters>
     <label>Pilot - All - Opportunities w/o Parent</label>
 </ListView>

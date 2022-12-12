@@ -4,9 +4,8 @@
     <externalId>false</externalId>
     <formula>TEXT(Order__r.Opportunity__r.Pilot_type__c)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>DoNotUsePilot type</label>
+    <label>Pilot type</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

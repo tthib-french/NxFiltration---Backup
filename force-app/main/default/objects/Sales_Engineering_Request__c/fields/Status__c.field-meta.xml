@@ -5,7 +5,6 @@
     <label>Status</label>
     <required>false</required>
     <trackFeedHistory>true</trackFeedHistory>
-    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
@@ -21,11 +20,6 @@
                 <fullName>Started</fullName>
                 <default>false</default>
                 <label>Started</label>
-            </value>
-            <value>
-                <fullName>Waiting for additional info</fullName>
-                <default>false</default>
-                <label>Waiting for additional info</label>
             </value>
             <value>
                 <fullName>Finished</fullName>
