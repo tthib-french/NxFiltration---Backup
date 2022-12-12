@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>1</activeVersionNumber>
+    <description>Pilot creation, once an order with Type “Pilot” is activated; copy data from related order en opportunity.</description>
+    <masterLabel>Pilot - Create Pilot From Activated Order</masterLabel>
+</FlowDefinition>

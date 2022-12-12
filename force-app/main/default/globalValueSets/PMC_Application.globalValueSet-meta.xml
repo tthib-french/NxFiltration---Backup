@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>NF Municipal Water</fullName>
+        <default>false</default>
+        <label>NF Municipal Water</label>
+    </customValue>
+    <customValue>
+        <fullName>NF Municipal WW</fullName>
+        <default>false</default>
+        <label>NF Municipal WW</label>
+    </customValue>
+    <customValue>
+        <fullName>NF Process</fullName>
+        <default>false</default>
+        <label>NF Process</label>
+    </customValue>
+    <customValue>
+        <fullName>NF Industrial WW</fullName>
+        <default>false</default>
+        <label>NF Industrial WW</label>
+    </customValue>
+    <customValue>
+        <fullName>NF Industrial Water</fullName>
+        <default>false</default>
+        <label>NF Industrial Water</label>
+    </customValue>
+    <customValue>
+        <fullName>UF Municipal</fullName>
+        <default>false</default>
+        <label>UF Municipal</label>
+    </customValue>
+    <customValue>
+        <fullName>UF Industrial</fullName>
+        <default>false</default>
+        <label>UF Industrial</label>
+    </customValue>
+    <customValue>
+        <fullName>MF Beer</fullName>
+        <default>false</default>
+        <label>MF Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>MF Wine</fullName>
+        <default>false</default>
+        <label>MF Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>MF Other</fullName>
+        <default>false</default>
+        <label>MF Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>PMC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMC</label>
+    </customValue>
+    <masterLabel>PMC</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Mexplorer</fullName>
+        <default>false</default>
+        <label>Mexplorer</label>
+    </customValue>
+    <customValue>
+        <fullName>Mexperience</fullName>
+        <default>false</default>
+        <label>Mexperience</label>
+    </customValue>
+    <customValue>
+        <fullName>Mexpert</fullName>
+        <default>false</default>
+        <label>Mexpert</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom design</fullName>
+        <default>false</default>
+        <label>Custom design</label>
+    </customValue>
+    <customValue>
+        <fullName>Demo Unit</fullName>
+        <default>false</default>
+        <label>Demo Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Mexpert Container</fullName>
+        <default>false</default>
+        <label>Mexpert Container</label>
+    </customValue>
+    <masterLabel>Pilot type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

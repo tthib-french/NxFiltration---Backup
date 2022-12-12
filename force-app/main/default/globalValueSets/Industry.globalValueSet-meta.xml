@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Automotive</fullName>
+        <default>false</default>
+        <label>Automotive</label>
+    </customValue>
+    <customValue>
+        <fullName>Beverage</fullName>
+        <default>false</default>
+        <label>Beverage</label>
+    </customValue>
+    <customValue>
+        <fullName>Biodiesel</fullName>
+        <default>false</default>
+        <label>Biodiesel</label>
+    </customValue>
+    <customValue>
+        <fullName>Ceramics</fullName>
+        <default>false</default>
+        <label>Ceramics</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemical</fullName>
+        <default>false</default>
+        <label>Chemical</label>
+    </customValue>
+    <customValue>
+        <fullName>Cosmetic/Bodycare</fullName>
+        <default>false</default>
+        <label>Cosmetic/Bodycare</label>
+    </customValue>
+    <customValue>
+        <fullName>Dairy</fullName>
+        <default>false</default>
+        <label>Dairy</label>
+    </customValue>
+    <customValue>
+        <fullName>Digestate</fullName>
+        <default>false</default>
+        <label>Digestate</label>
+    </customValue>
+    <customValue>
+        <fullName>Distillery</fullName>
+        <default>false</default>
+        <label>Distillery</label>
+    </customValue>
+    <customValue>
+        <fullName>Electronics</fullName>
+        <default>false</default>
+        <label>Electronics</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy</fullName>
+        <default>false</default>
+        <label>Energy</label>
+    </customValue>
+    <customValue>
+        <fullName>Food</fullName>
+        <default>false</default>
+        <label>Food</label>
+    </customValue>
+    <customValue>
+        <fullName>General wastewater plant</fullName>
+        <default>false</default>
+        <label>General wastewater plant</label>
+    </customValue>
+    <customValue>
+        <fullName>Hazardous waste management</fullName>
+        <default>false</default>
+        <label>Hazardous waste management</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital</fullName>
+        <default>false</default>
+        <label>Hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>Land development</fullName>
+        <default>false</default>
+        <label>Land development</label>
+    </customValue>
+    <customValue>
+        <fullName>Landfill Leachate</fullName>
+        <default>false</default>
+        <label>Landfill Leachate</label>
+    </customValue>
+    <customValue>
+        <fullName>Laundry</fullName>
+        <default>false</default>
+        <label>Laundry</label>
+    </customValue>
+    <customValue>
+        <fullName>Metal industry</fullName>
+        <default>false</default>
+        <label>Metal industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Mining</fullName>
+        <default>false</default>
+        <label>Mining</label>
+    </customValue>
+    <customValue>
+        <fullName>Municipal</fullName>
+        <default>false</default>
+        <label>Municipal</label>
+    </customValue>
+    <customValue>
+        <fullName>Non Industrial Commercial</fullName>
+        <default>false</default>
+        <label>Non Industrial Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Oil &amp; Gas</fullName>
+        <default>false</default>
+        <label>Oil &amp; Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>Petrochemical</fullName>
+        <default>false</default>
+        <label>Petrochemical</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmaceutical</fullName>
+        <default>false</default>
+        <label>Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastic recycling</fullName>
+        <default>false</default>
+        <label>Plastic recycling</label>
+    </customValue>
+    <customValue>
+        <fullName>Pulp &amp; Paper</fullName>
+        <default>false</default>
+        <label>Pulp &amp; Paper</label>
+    </customValue>
+    <customValue>
+        <fullName>Slaughterhouse</fullName>
+        <default>false</default>
+        <label>Slaughterhouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Tank cleaning</fullName>
+        <default>false</default>
+        <label>Tank cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Tannery</fullName>
+        <default>false</default>
+        <label>Tannery</label>
+    </customValue>
+    <customValue>
+        <fullName>Textile</fullName>
+        <default>false</default>
+        <label>Textile</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <masterLabel>Industry</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

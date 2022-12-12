@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Pilot Engineer South East Asia</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Pilot Engineer South East Asia</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>PilotEngineer_Commissioning</parentRole>
+</Role>

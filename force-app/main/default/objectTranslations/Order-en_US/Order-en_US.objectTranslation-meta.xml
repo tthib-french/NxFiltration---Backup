@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Order Layout</layout>
+        <sections>
+            <label></label>
+            <section>Additonal Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Authorisation Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>EOL Address Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>EOL ID</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order Date Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order Delivery Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pilot Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SM - Order Layout</layout>
+        <sections>
+            <label></label>
+            <section>Additonal Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Authorisation Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>EOL Address Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>EOL ID</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order Date Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order Delivery Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pilot Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Totals Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <formulas>
+        <name>Concatenatefields</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__c}&amp;TEXT({!$Record.PMC_Global_Quota__c})&amp;TEXT(MONTH({!$Record.Quota_Date__c}))&amp;TEXT(YEAR({!$Record.Quota_Date__c}))</expression>
+    </formulas>
+    <interviewLabel>Quota - DuplicateCheck {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Quota - DuplicateCheck</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Duplicate_Check</name>
+        <label>Update Duplicate Check</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <inputAssignments>
+            <field>Duplicatecheck__c</field>
+            <value>
+                <elementReference>Concatenatefields</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Duplicate_Check</targetReference>
+        </connector>
+        <object>Quota__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>CHINA</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>CHINA PE SEA</label>
+        <sharedTo>
+            <role>Pilot_Engineer_South_East_Asia</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Sales_Manager_China</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Opportunities_SEA_Business_deV</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opportunities SEA Business deV</label>
+        <sharedTo>
+            <role>Business_Developer</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Sales_Manager_South_East_Asia</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SM_CAD_USA_share_Opp_with_Pilot_USA_CAD</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SM CAD/USA share Opp with Pilot - USA/CAD</label>
+        <sharedTo>
+            <group>Pilot_USA_CAD</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>NW_USA_CAD_USA</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SM_Sea_Pilot_Eng_SEA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing SM_Sea_Pilot_Eng_SEA with Venkat</description>
+        <label>SM Sea &amp; Pilot Eng SEA</label>
+        <sharedTo>
+            <group>Pilot_South_East_Asia</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>SM_South_East_Asia</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SM_Sea_SAE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SM Sea &amp; SAE</label>
+        <sharedTo>
+            <group>All_Pilot_and_Sales_Engineers</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>All_Pilot_and_Sales_Engineers</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sales_Manger_Spain</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales Manger Spain</label>
+        <sharedTo>
+            <roleAndSubordinates>Sales_Manager_Spain</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <role>Sales_Manager_Spain</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_all_Assets</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share all Assets</label>
+        <sharedTo>
+            <group>SD_BackOffice_Pilot_Eng_Board</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>MP025</fullName>
+        <default>false</default>
+        <label>MP025</label>
+    </customValue>
+    <customValue>
+        <fullName>WMC110</fullName>
+        <default>false</default>
+        <label>WMC110</label>
+    </customValue>
+    <customValue>
+        <fullName>WMC200</fullName>
+        <default>false</default>
+        <label>WMC200</label>
+    </customValue>
+    <customValue>
+        <fullName>WRC200</fullName>
+        <default>false</default>
+        <label>WRC200</label>
+    </customValue>
+    <masterLabel>Module</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

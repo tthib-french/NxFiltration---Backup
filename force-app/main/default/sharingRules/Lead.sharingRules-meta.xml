@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>BD_East_Asia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>all business in EA</description>
+        <label>BD East Asia</label>
+        <sharedTo>
+            <group>Business_develoment</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country</field>
+            <operation>equals</operation>
+            <value>Japan,&quot;Korea, Republic of&quot;,Chinese Taipei</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Benelux</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BeneluxRole</label>
+        <sharedTo>
+            <role>Sales_Manager_Benelux</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Belgium,Luxembourg,Netherlands</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>China</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>China</label>
+        <sharedTo>
+            <group>China</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Chinese Taipei,China</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Continent_America</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Continent America</label>
+        <sharedTo>
+            <role>Sales_Director_America</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Region_Area__c</field>
+            <operation>equals</operation>
+            <value>USA &amp; Canada,Latin America</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>DACH</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Lead sharing DACH</description>
+        <label>DACH</label>
+        <sharedTo>
+            <group>DACH</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Austria,Germany,Switzerland</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Eastern_Europe</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Eastern Europe</label>
+        <sharedTo>
+            <group>Eastern_Europe</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Czech Republic,Georgia,Belarus,Azerbaijan,Romania,Slovenia,Serbia,Russian Federation,Slovakia,Poland,Latvia,Kazakhstan,Kyrgyzstan,Tajikistan,&quot;Moldova, Republic of&quot;,Montenegro,Turkmenistan,Uzbekistan,&quot;Macedonia, the former Yugoslav Republic of&quot;,Lithuania,Estonia,Hungary,Bulgaria</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>FranceSwitserland</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>leads for SW &amp; FR</description>
+        <label>FranceSwitserland</label>
+        <sharedTo>
+            <group>FranceAndSwitserland</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>France,Belgium,Switzerland</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Indonesia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Lead sharing Indonesia</description>
+        <label>Indonesia</label>
+        <sharedTo>
+            <group>Indonesia</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Indonesia</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NorthAmericas</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NorthAmericas</label>
+        <sharedTo>
+            <group>NW_USA_CAD_USA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Canada,United States</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SEA_APAC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>SEA + APAC Combined</description>
+        <label>SEA + APAC</label>
+        <sharedTo>
+            <role>Business_Developer</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Australia,Chile,Brunei Darussalam,Bangladesh,Singapore,Philippines,Pakistan,Nepal,Malaysia,Myanmar,Japan,Macao,New Zealand,Viet Nam,Thailand,Afghanistan,Cambodia,Samoa,Sri Lanka,Maldives,Tonga,Tuvalu,Indonesia,Bhutan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Scandinavia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Combining all Scandinavian Countries</description>
+        <label>Scandinavia</label>
+        <sharedTo>
+            <group>Scandinavia</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Sweden,Denmark,Finland,Norway,Iceland</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Share_All_leads</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share All leads</label>
+        <sharedTo>
+            <group>SD_BackOffice_Pilot_Eng_Board</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_lead_information</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share lead information</label>
+        <sharedTo>
+            <role>Pilot_Engineer_Sales_Engineer_India_and_Middle_East</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Middle_East_India_North_West</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

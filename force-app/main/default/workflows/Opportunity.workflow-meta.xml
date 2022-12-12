@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Opportunities_PastDue</fullName>
+        <description>Opportunities_PastDue</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_opps</template>
+    </alerts>
+    <alerts>
+        <fullName>When_Pilot_Planning_Is_verified_then_the_Opportunity_Owner_will_receive_a_messag</fullName>
+        <description>When Pilot Planning Is verified, then the Opportunity Owner will receive a message</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>info@nxfiltration.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Opportunity_Pilot_Planning_Verified</template>
+    </alerts>
+    <rules>
+        <fullName>Send email to Owner of Opportunity that Pilot planning is approved</fullName>
+        <actions>
+            <name>When_Pilot_Planning_Is_verified_then_the_Opportunity_Owner_will_receive_a_messag</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Planning_Approved_Pilot_Team__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

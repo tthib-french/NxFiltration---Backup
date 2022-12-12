@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Quote Layout</layout>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Delivery Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Quote</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Quote Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <workflowTasks>
+        <name>Approval_request_0</name>
+        <subject></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

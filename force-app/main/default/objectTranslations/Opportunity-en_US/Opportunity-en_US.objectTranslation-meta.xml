@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>NXF - Pilot Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Loss Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Opportunity Pilot Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Parent Opportunity Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pilot Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Product Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>NXF - Project Layout</layout>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pilot Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pricing and conditions</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Project Details</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

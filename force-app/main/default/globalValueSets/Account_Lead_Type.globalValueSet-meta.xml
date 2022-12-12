@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>OEM/EPC</fullName>
+        <default>false</default>
+        <label>OEM/EPC</label>
+    </customValue>
+    <customValue>
+        <fullName>Plant operator</fullName>
+        <default>false</default>
+        <label>Plant operator</label>
+    </customValue>
+    <customValue>
+        <fullName>End users</fullName>
+        <default>false</default>
+        <label>End users</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant</fullName>
+        <default>false</default>
+        <label>Consultant</label>
+    </customValue>
+    <customValue>
+        <fullName>Distributor</fullName>
+        <default>false</default>
+        <label>Distributor</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Research Institute</fullName>
+        <default>false</default>
+        <label>Research Institute</label>
+    </customValue>
+    <customValue>
+        <fullName>Press</fullName>
+        <default>false</default>
+        <label>Press</label>
+    </customValue>
+    <customValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplier</fullName>
+        <default>false</default>
+        <label>Supplier</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Reseller</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reseller</label>
+    </customValue>
+    <masterLabel>Account/Lead Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

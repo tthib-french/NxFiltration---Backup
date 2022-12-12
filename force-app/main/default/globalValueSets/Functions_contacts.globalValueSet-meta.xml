@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CEO / Owner</fullName>
+        <default>false</default>
+        <label>CEO / Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales (after sales)</fullName>
+        <default>false</default>
+        <label>Sales (after sales)</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchase</fullName>
+        <default>false</default>
+        <label>Purchase</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering</fullName>
+        <default>false</default>
+        <label>Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Production</fullName>
+        <default>false</default>
+        <label>Production</label>
+    </customValue>
+    <customValue>
+        <fullName>Administration</fullName>
+        <default>false</default>
+        <label>Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Development</fullName>
+        <default>false</default>
+        <label>Business Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>R&amp;D</fullName>
+        <default>false</default>
+        <label>R&amp;D</label>
+    </customValue>
+    <description>function of contacts or leads</description>
+    <masterLabel>Functions_contacts</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
